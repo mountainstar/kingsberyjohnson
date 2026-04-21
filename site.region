@@ -517,12 +517,6 @@
                   allowfullscreen
                 ></iframe>
               </div>
-              <div class="contact-block contact-form">
-                <h2 class="service-card__title">Contact form</h2>
-                <p class="contact-block__fax">
-                  Use the form below to contact us.
-                </p>
-              </div>
             </div>
           </div>
         </section>

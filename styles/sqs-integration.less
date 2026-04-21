@@ -85,14 +85,22 @@ body.is-contact-route [data-cms-content] {
   display: block;
 }
 
-body.is-contact-route [data-cms-content] .content-container .sqs-layout,
 body.is-contact-route [data-cms-content] .sqs-layout {
   max-width: 52rem;
   margin: 0 auto var(--space-16);
   padding: 0 var(--space-5);
 }
 
+body.is-contact-route [data-cms-content] .sqs-block:not(.sqs-block-form) {
+  display: none;
+}
+
+body.is-contact-route [data-cms-content] .sqs-layout > .sqs-row:first-child {
+  margin-top: 0;
+}
+
 body.is-contact-route [data-cms-content] .sqs-block-form {
+  margin-top: 0;
   padding: var(--space-6);
   border-radius: var(--radius-lg);
   background: var(--white);

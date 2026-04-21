@@ -116,6 +116,7 @@
 .contact-layout {
   display: grid;
   gap: var(--space-5);
+  margin-bottom: var(--space-5);
 }
 
 .contact-map iframe {
@@ -206,10 +207,7 @@
 @media (min-width: 900px) {
   .contact-layout {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .contact-layout > :first-child {
-    grid-column: 1 / -1;
+    align-items: stretch;
   }
 
   .service-card--split {
