@@ -1,23 +1,23 @@
-<nav class="site-navigation">
-  <ul class="site-navigation-list">
+<nav class="app-bar__nav" id="primary-nav" aria-label="Primary">
+  <ul class="app-bar__list">
     {.repeated section items}
-
-      <li class="site-navigation-item {.section active} active-link{.end}">
-
-        <!-- collection link -->
+      <li class="app-bar__item{.section active} active-link{.end}">
         {.section collection}
-          <a href="{fullUrl}">{navigationTitle}</a>
-        {.end}
-
-        <!-- external link -->
+          <a
+            class="app-bar__link"
+            href="{fullUrl}"
+            {.section active}aria-current="page"{.end}
+          >{navigationTitle}</a>
+        {.or}
         {.section externalLink}
-          <a href="{url}"{.section newWindow} target="_blank"{.end}>
-            {title}
-          </a>
+          <a
+            class="app-bar__link"
+            href="{url}"
+            {.section newWindow}target="_blank" rel="noopener noreferrer"{.end}
+            {.section active}aria-current="page"{.end}
+          >{title}</a>
         {.end}
-
       </li>
-
     {.end}
   </ul>
 </nav>
