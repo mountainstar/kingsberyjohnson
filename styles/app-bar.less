@@ -19,10 +19,10 @@
   gap: var(--space-2);
   width: 100%;
   min-height: ~"calc(var(--app-bar-height) + env(safe-area-inset-top, 0px))";
-  padding-top: env(safe-area-inset-top, 0px);
+  padding-top: ~"calc(env(safe-area-inset-top, 0px) + var(--space-2))";
   padding-inline: max(var(--space-4), env(safe-area-inset-left, 0px))
     max(var(--space-4), env(safe-area-inset-right, 0px));
-  padding-bottom: 0;
+  padding-bottom: var(--space-2);
   background: var(--md-sys-color-primary);
   color: var(--md-sys-color-on-primary);
 }
