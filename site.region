@@ -82,7 +82,6 @@
                     </p>
                   </div>
                   <a class="screen-hero__cta" href="/#practice">
-                    <span class="screen-hero__kicker">Practice area</span>
                     <h2 class="screen-hero__title">Estate planning</h2>
                     <span class="screen-hero__arrow" aria-hidden="true">→</span>
                   </a>
@@ -105,7 +104,6 @@
                 <div class="screen-hero__scrim" aria-hidden="true"></div>
                 <div class="screen-hero__content">
                   <a class="screen-hero__cta" href="/#practice">
-                    <span class="screen-hero__kicker">Practice area</span>
                     <h2 class="screen-hero__title">Probate &amp; trust administration</h2>
                     <span class="screen-hero__arrow" aria-hidden="true">→</span>
                   </a>
@@ -128,7 +126,6 @@
                 <div class="screen-hero__scrim" aria-hidden="true"></div>
                 <div class="screen-hero__content">
                   <a class="screen-hero__cta" href="/#practice">
-                    <span class="screen-hero__kicker">Practice area</span>
                     <h2 class="screen-hero__title">Business law</h2>
                     <span class="screen-hero__arrow" aria-hidden="true">→</span>
                   </a>
