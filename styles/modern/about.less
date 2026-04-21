@@ -1,0 +1,214 @@
+/* Home about + team teaser */
+.about {
+  position: relative;
+  padding: var(--space-12) var(--space-5) var(--space-16);
+  background: var(--cream);
+  background-image: radial-gradient(
+    ellipse 120% 80% at 100% 0%,
+    rgba(123, 201, 168, 0.12),
+    transparent 55%
+  );
+}
+
+.about__inner {
+  max-width: 72rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-10);
+}
+
+.about__eyebrow {
+  margin: 0 0 var(--space-3);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--forest-bright);
+}
+
+.about__title {
+  margin: 0 0 var(--space-6);
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 5vw, 2.75rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  color: var(--forest);
+  max-width: 16ch;
+}
+
+.about__copy p {
+  margin: 0 0 var(--space-4);
+  font-weight: 500;
+  color: var(--ink-muted);
+  font-size: 1.0625rem;
+  max-width: 40rem;
+}
+
+.about__copy p:last-child {
+  margin-bottom: 0;
+}
+
+.about__expect-heading {
+  margin: 0 0 var(--space-5);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--burgundy);
+}
+
+.about__expect-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.about__expect-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(26, 61, 48, 0.08);
+  box-shadow: var(--shadow-soft);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.45;
+}
+
+.about__expect-icon {
+  flex-shrink: 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 0.45em;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(
+    135deg,
+    var(--forest-bright),
+    var(--forest)
+  );
+  box-shadow: 0 0 0 3px rgba(45, 107, 82, 0.2);
+}
+
+.about__team {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: var(--space-10) var(--space-5) var(--space-8);
+  border-top: 1px solid rgba(26, 61, 48, 0.1);
+}
+
+.about__team-heading {
+  margin: 0 0 var(--space-6);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--burgundy);
+  text-align: center;
+}
+
+.about__team-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-6) var(--space-4);
+  justify-items: center;
+}
+
+@media (min-width: 640px) {
+  .about__team-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.about__team-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  max-width: 10rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.about__team-link:hover .about__team-name,
+.about__team-link:focus-visible .about__team-name {
+  color: var(--forest-bright);
+  text-decoration: underline;
+  outline: none;
+}
+
+.about__team-photo {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  box-shadow: var(--shadow-soft);
+  border: 2px solid rgba(255, 255, 255, 0.95);
+}
+
+.about__team-name {
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--forest);
+  line-height: 1.3;
+}
+
+.about__team-more {
+  margin: var(--space-8) 0 0;
+  text-align: center;
+}
+
+.about__team-more a {
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: var(--forest-bright);
+  text-decoration: none;
+}
+
+.about__team-more a:hover,
+.about__team-more a:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+@media (min-width: 640px) {
+  .about__inner {
+    gap: var(--space-12);
+  }
+
+  .about__expect-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-4);
+  }
+}
+
+@media (min-width: 900px) {
+  .about__inner {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    gap: var(--space-16);
+  }
+
+  .about__intro {
+    flex: 1;
+    max-width: 36rem;
+  }
+
+  .about__expect {
+    flex: 0 0 min(380px, 38%);
+  }
+}
