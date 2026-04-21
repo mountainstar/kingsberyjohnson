@@ -29,16 +29,25 @@
     var isWho = path === '/who' || path === '/who-we-are';
     var isWhat = path === '/what' || path === '/what-we-do';
     var profileSlugs = ['love', 'lehman', 'boyd', 'kingsber'];
+    var practiceSlugs = ['estateplanning', 'estateprobatetrust', 'businesslaw'];
     var activeProfile = null;
+    var activePractice = null;
     for (var i = 0; i < profileSlugs.length; i++) {
       if (path === '/' + profileSlugs[i]) {
         activeProfile = profileSlugs[i];
         break;
       }
     }
+    for (var j = 0; j < practiceSlugs.length; j++) {
+      if (path === '/' + practiceSlugs[j]) {
+        activePractice = practiceSlugs[j];
+        break;
+      }
+    }
     var homeSections = document.querySelectorAll('[data-home-section]');
     var whoSections = document.querySelectorAll('[data-who-section]');
     var whatSections = document.querySelectorAll('[data-what-section]');
+    var practiceSections = document.querySelectorAll('[data-practice-section]');
     var profileSections = document.querySelectorAll('[data-profile-section]');
     var cmsSection = document.querySelector('[data-cms-content]');
     var body = document.body;
@@ -47,6 +56,7 @@
       body.classList.toggle('is-home-route', isHome);
       body.classList.toggle('is-who-route', isWho);
       body.classList.toggle('is-what-route', isWhat);
+      body.classList.toggle('is-practice-route', !!activePractice);
       body.classList.toggle('is-profile-route', !!activeProfile);
     }
 
@@ -59,13 +69,17 @@
     whatSections.forEach(function (el) {
       el.hidden = !isWhat;
     });
+    practiceSections.forEach(function (el) {
+      var slug = el.getAttribute('data-practice-section');
+      el.hidden = slug !== activePractice;
+    });
     profileSections.forEach(function (el) {
       var slug = el.getAttribute('data-profile-section');
       el.hidden = slug !== activeProfile;
     });
 
     if (cmsSection) {
-      cmsSection.hidden = isHome || isWho || isWhat || !!activeProfile;
+      cmsSection.hidden = isHome || isWho || isWhat || !!activePractice || !!activeProfile;
     }
   }
 

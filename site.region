@@ -49,8 +49,13 @@
                   <li><a href="/kingsber">Walter W. Kingsbery</a></li>
                 </ul>
               </li>
-              <li class="app-bar__item">
+              <li class="app-bar__item app-bar__item--has-sub">
                 <a class="app-bar__link" href="/what">What we do</a>
+                <ul class="app-bar__sub" aria-label="Practice areas">
+                  <li><a href="/estateplanning">Estate Planning</a></li>
+                  <li><a href="/estateprobatetrust">Estate, Probate and Trust Administration</a></li>
+                  <li><a href="/businesslaw">Business Law</a></li>
+                </ul>
               </li>
               <li class="app-bar__item">
                 <a class="app-bar__link" href="/contact">Contact</a>
@@ -100,7 +105,7 @@
                       {.section website}{siteTitle}{.end}
                     </p>
                   </div>
-                  <a class="screen-hero__cta" href="/#practice">
+                  <a class="screen-hero__cta" href="/estateplanning">
                     <h2 class="screen-hero__title">Estate planning</h2>
                     <span class="screen-hero__arrow" aria-hidden="true">→</span>
                   </a>
@@ -122,7 +127,7 @@
                 />
                 <div class="screen-hero__scrim" aria-hidden="true"></div>
                 <div class="screen-hero__content">
-                  <a class="screen-hero__cta" href="/#practice">
+                  <a class="screen-hero__cta" href="/estateprobatetrust">
                     <h2 class="screen-hero__title">Probate &amp; trust administration</h2>
                     <span class="screen-hero__arrow" aria-hidden="true">→</span>
                   </a>
@@ -144,7 +149,7 @@
                 />
                 <div class="screen-hero__scrim" aria-hidden="true"></div>
                 <div class="screen-hero__content">
-                  <a class="screen-hero__cta" href="/#practice">
+                  <a class="screen-hero__cta" href="/businesslaw">
                     <h2 class="screen-hero__title">Business law</h2>
                     <span class="screen-hero__arrow" aria-hidden="true">→</span>
                   </a>
@@ -202,9 +207,9 @@
               What we do
             </h2>
             <ul class="practice-strip__list">
-              <li><a class="practice-strip__link" href="/what#estate-planning">Estate planning</a></li>
-              <li><a class="practice-strip__link" href="/what#estate-probate-trust-administration">Probate &amp; trust administration</a></li>
-              <li><a class="practice-strip__link" href="/what#business-law">Business law</a></li>
+              <li><a class="practice-strip__link" href="/estateplanning">Estate planning</a></li>
+              <li><a class="practice-strip__link" href="/estateprobatetrust">Probate &amp; trust administration</a></li>
+              <li><a class="practice-strip__link" href="/businesslaw">Business law</a></li>
             </ul>
           </div>
         </section>
@@ -306,6 +311,7 @@
               plans designed to maximize our clients' flexibility and intentions while minimizing
               estate, gift, and generation-skipping transfer taxes.
             </p>
+            <p><a href="/estateplanning">Read more about estate planning</a>.</p>
 
             <h2 id="estate-probate-trust-administration" class="page-sheet__title">
               Estate, Probate and Trust Administration
@@ -316,12 +322,166 @@
               the estate and probate process, including gathering assets and ensuring that after taxes
               and expenses are paid, those assets pass to the heirs or beneficiaries of an estate.
             </p>
+            <p><a href="/estateprobatetrust">Read more about estate, probate and trust administration</a>.</p>
 
             <h2 id="business-law" class="page-sheet__title">Business Law</h2>
             <p>
               We often provide business law advice to our estate planning clients, including the
               formation and operation of family entities and succession planning for those entities.
             </p>
+            <p><a href="/businesslaw">Read more about business law</a>.</p>
+          </div>
+        </section>
+
+        <section class="page-profile" data-practice-section="estateplanning" hidden>
+          <div class="page-sheet page-sheet--service">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a> · <a href="/what">What we do</a> · Estate Planning
+            </nav>
+            <figure class="service-banner">
+              <img
+                src="assets/kingsbery-johnson/estate-planning-orbit.jpg"
+                alt="Estate planning documents and legal planning materials"
+                width="1143"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+            <div class="service-card">
+              <h1 class="page-sheet__title">Estate Planning</h1>
+              <p class="page-sheet__lead">
+                We provide estate, wealth transfer, and tax planning services to individuals, couples and
+                families. From the most basic to the most complex, we prepare individualized estate plans
+                designed to maximize our clients' flexibility and intentions while minimizing estate, gift,
+                and generation-skipping transfer taxes.
+              </p>
+              <p>
+                Our attorneys consult with clients to determine the nature and extent of their assets and
+                their objectives in managing, conserving and distributing their wealth. Our experience allows
+                us to combine proficiency with practicality and sensitivity to both technical and non-technical
+                issues. We often work with our clients' other professional advisors, including accountants,
+                brokers, financial planners, life insurance professionals, and trustees, to coordinate all
+                aspects of their planning.
+              </p>
+            </div>
+            <div class="service-card">
+              <h2 class="service-card__title">Planning documents include</h2>
+              <ul class="page-sheet__list">
+                <li>Wills</li>
+                <li>Revocable and irrevocable trusts</li>
+                <li>Durable powers of attorney for healthcare and property</li>
+                <li>Living wills</li>
+                <li>Pre-marital and post-marital agreements</li>
+                <li>Shareholders' agreements</li>
+                <li>Family limited partnership agreements</li>
+                <li>Limited liability company agreements</li>
+              </ul>
+            </div>
+            <div class="service-card service-card--split">
+              <div>
+                <p>
+                  We also prepare ancillary estate planning documents, such as real estate deeds and beneficiary
+                  designation forms for annuities, life insurance policies, and retirement plans. If needed, we
+                  prepare and file federal gift tax returns (IRS Form 709). We provide complex estate planning
+                  guidance, including:
+                </p>
+                <ul class="page-sheet__list">
+                  <li>The creation of irrevocable life insurance trusts (ILITs)</li>
+                  <li>Qualified domestic trusts (QDOTs)</li>
+                  <li>Sales to grantor trusts (IDITs)</li>
+                  <li>Grantor retained annuity trusts (GRATs)</li>
+                  <li>Qualified personal residence trusts (QPRTs)</li>
+                  <li>Lifetime qualified terminable interest trusts (QTIPs)</li>
+                  <li>Generation-skipping transfer tax (GST) planning strategies</li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="service-card__title">Charitable planning guidance</h2>
+                <ul class="page-sheet__list">
+                  <li>Private foundations</li>
+                  <li>Donor advised funds</li>
+                  <li>Charitable remainder trusts (CRTs)</li>
+                  <li>Charitable lead trusts (CLTs)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-profile" data-practice-section="estateprobatetrust" hidden>
+          <div class="page-sheet page-sheet--service">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a> · <a href="/what">What we do</a> · Estate, Probate and Trust Administration
+            </nav>
+            <figure class="service-banner">
+              <img
+                src="assets/kingsbery-johnson/estate-probate-trust-orbit.jpg"
+                alt="Estate and trust administration legal files and planning notes"
+                width="1143"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+            <div class="service-card">
+              <h1 class="page-sheet__title">Estate, Probate and Trust Administration</h1>
+              <p class="page-sheet__lead">
+                Our firm has extensive experience representing personal representatives, trustees, and beneficiaries
+                in handling estate and trust administration matters. We assist clients with the estate and probate
+                process, including gathering assets and ensuring that after taxes and expenses are paid, those assets
+                pass to the heirs or beneficiaries of an estate.
+              </p>
+            </div>
+            <div class="service-card">
+              <p>
+                We prepare all documents required in connection with estate and trust administration, including petitions
+                and applications for probate, inventories, accountings, and asset transfer documents. We prepare and file
+                federal estate tax returns (IRS Form 706). Our attorneys advise personal representatives on tax elections,
+                marital and charitable deduction issues, disclaimers, and estate and generation-skipping transfer taxes.
+                We regularly counsel individual and corporate trustees on various aspects of trust administration, including
+                income and principal allocation and apportionment issues, legal requirements relating to trust investments,
+                discretionary distribution decisions, and the selection, resignation and removal of trustees.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="page-profile" data-practice-section="businesslaw" hidden>
+          <div class="page-sheet page-sheet--service">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a> · <a href="/what">What we do</a> · Business Law
+            </nav>
+            <figure class="service-banner">
+              <img
+                src="assets/kingsbery-johnson/business-orbit.jpg"
+                alt="Business law planning materials and strategic business paperwork"
+                width="1143"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+            <div class="service-card">
+              <h1 class="page-sheet__title">Business Law</h1>
+              <p class="page-sheet__lead">
+                Our goal is to provide practical advice to business owners, entrepreneurs and executives. We focus on
+                the effects our advice will have on your business and how to prepare for the events of the future.
+              </p>
+            </div>
+            <div class="service-card service-card--split">
+              <p>
+                Whether its a small family run business with succession planning concerns, a retired executive providing
+                consulting services, an entrepreneur seeking capital or just a simple contract review, we can help provide
+                a solution.
+              </p>
+              <p>
+                Our services include formation and operation of partnerships, limited liability companies and other entities.
+                We also work with clients to plan for sales, mergers and transfers of the business. We also advise families
+                on the transfer of business interests through sales and gifting plans. Being in business can be complex and
+                stressful, a sound legal solution doesn't have to be.
+              </p>
+            </div>
           </div>
         </section>
 
