@@ -333,7 +333,7 @@
 
   .app-bar__link {
     padding: var(--space-2) var(--space-3);
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.00625em;
     color: var(--md-sys-color-on-primary);
@@ -395,13 +395,6 @@
 
 .app-bar__link[aria-current="page"] {
   font-weight: 700;
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
-  text-decoration-thickness: 2px;
-}
-
-@media (min-width: 900px) {
-  .app-bar__link[aria-current="page"] {
-    text-decoration-color: rgba(255, 255, 255, 0.85);
-  }
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.95);
 }
