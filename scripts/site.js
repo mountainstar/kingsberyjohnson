@@ -27,6 +27,7 @@
     var path = normalizePath(window.location.pathname);
     var isHome = path === '/' || path === '/welcome';
     var isWho = path === '/who' || path === '/who-we-are';
+    var isWhat = path === '/what' || path === '/what-we-do';
     var profileSlugs = ['love', 'lehman', 'boyd', 'kingsber'];
     var activeProfile = null;
     for (var i = 0; i < profileSlugs.length; i++) {
@@ -37,6 +38,7 @@
     }
     var homeSections = document.querySelectorAll('[data-home-section]');
     var whoSections = document.querySelectorAll('[data-who-section]');
+    var whatSections = document.querySelectorAll('[data-what-section]');
     var profileSections = document.querySelectorAll('[data-profile-section]');
     var cmsSection = document.querySelector('[data-cms-content]');
     var body = document.body;
@@ -44,6 +46,7 @@
     if (body) {
       body.classList.toggle('is-home-route', isHome);
       body.classList.toggle('is-who-route', isWho);
+      body.classList.toggle('is-what-route', isWhat);
       body.classList.toggle('is-profile-route', !!activeProfile);
     }
 
@@ -53,13 +56,16 @@
     whoSections.forEach(function (el) {
       el.hidden = !isWho;
     });
+    whatSections.forEach(function (el) {
+      el.hidden = !isWhat;
+    });
     profileSections.forEach(function (el) {
       var slug = el.getAttribute('data-profile-section');
       el.hidden = slug !== activeProfile;
     });
 
     if (cmsSection) {
-      cmsSection.hidden = isHome || isWho || !!activeProfile;
+      cmsSection.hidden = isHome || isWho || isWhat || !!activeProfile;
     }
   }
 

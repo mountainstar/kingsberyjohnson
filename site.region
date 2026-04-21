@@ -50,7 +50,7 @@
                 </ul>
               </li>
               <li class="app-bar__item">
-                <a class="app-bar__link" href="/#practice">What we do</a>
+                <a class="app-bar__link" href="/what">What we do</a>
               </li>
               <li class="app-bar__item">
                 <a class="app-bar__link" href="/contact">Contact</a>
@@ -202,9 +202,9 @@
               What we do
             </h2>
             <ul class="practice-strip__list">
-              <li><a class="practice-strip__link" href="/#practice">Estate planning</a></li>
-              <li><a class="practice-strip__link" href="/#practice">Probate &amp; trust administration</a></li>
-              <li><a class="practice-strip__link" href="/#practice">Business law</a></li>
+              <li><a class="practice-strip__link" href="/what#estate-planning">Estate planning</a></li>
+              <li><a class="practice-strip__link" href="/what#estate-probate-trust-administration">Probate &amp; trust administration</a></li>
+              <li><a class="practice-strip__link" href="/what#business-law">Business law</a></li>
             </ul>
           </div>
         </section>
@@ -281,6 +281,46 @@
             </ul>
             <p class="about__team-more">
               <a href="/who">Meet the team</a>
+            </p>
+          </div>
+        </section>
+
+        <section class="page-profile" data-what-section hidden>
+          <div class="page-sheet">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a>
+              · What we do
+            </nav>
+            <h1 class="page-sheet__title">What We Do</h1>
+            <p class="page-sheet__lead">
+              Our firm was founded on the practice of assisting clients with estate planning and
+              administration, from routine to complex. Along the way, we developed an expertise in
+              advising small businesses on matters such as succession planning, buy-sell agreements,
+              and the planning necessary to start or expand a business.
+            </p>
+
+            <h2 id="estate-planning" class="page-sheet__title">Estate Planning</h2>
+            <p>
+              We provide estate, wealth transfer, and tax planning services to individuals, couples
+              and families. From the most basic to the most complex, we prepare individualized estate
+              plans designed to maximize our clients' flexibility and intentions while minimizing
+              estate, gift, and generation-skipping transfer taxes.
+            </p>
+
+            <h2 id="estate-probate-trust-administration" class="page-sheet__title">
+              Estate, Probate and Trust Administration
+            </h2>
+            <p>
+              Our firm has extensive experience representing personal representatives, trustees, and
+              beneficiaries in handling estate and trust administration matters. We assist clients with
+              the estate and probate process, including gathering assets and ensuring that after taxes
+              and expenses are paid, those assets pass to the heirs or beneficiaries of an estate.
+            </p>
+
+            <h2 id="business-law" class="page-sheet__title">Business Law</h2>
+            <p>
+              We often provide business law advice to our estate planning clients, including the
+              formation and operation of family entities and succession planning for those entities.
             </p>
           </div>
         </section>
@@ -626,7 +666,7 @@
             <ul class="site-footer__list">
               <li><a href="/">Home</a></li>
               <li><a href="/who-we-are">Who we are</a></li>
-              <li><a href="/#practice">What we do</a></li>
+              <li><a href="/what">What we do</a></li>
               <li><a href="/contact">Contact</a></li>
             </ul>
           </nav>

@@ -42,6 +42,7 @@ body.collection-type-blog .title {
 /* Route-specific section visibility toggles */
 [data-home-section],
 [data-who-section],
+[data-what-section],
 [data-profile-section] {
   display: none;
 }
@@ -54,12 +55,17 @@ body.is-who-route [data-who-section]:not([hidden]) {
   display: block;
 }
 
+body.is-what-route [data-what-section]:not([hidden]) {
+  display: block;
+}
+
 body.is-profile-route [data-profile-section]:not([hidden]) {
   display: block;
 }
 
 body.is-home-route [data-cms-content],
 body.is-who-route [data-cms-content],
+body.is-what-route [data-cms-content],
 body.is-profile-route [data-cms-content] {
   display: none;
 }
