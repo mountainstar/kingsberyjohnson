@@ -38,7 +38,25 @@
               <span class="app-bar__menu-line"></span>
             </span>
           </button>
-          <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+          <nav class="app-bar__nav" id="primary-nav" aria-label="Primary">
+            <ul class="app-bar__list">
+              <li class="app-bar__item app-bar__item--has-sub">
+                <a class="app-bar__link" href="/who">Who we are</a>
+                <ul class="app-bar__sub" aria-label="Attorneys">
+                  <li><a href="/eric-love">Eric V. Love</a></li>
+                  <li><a href="/jonathan-lehmann">Jonathan A. Lehmann</a></li>
+                  <li><a href="/abby-boyd">Abby C. Boyd</a></li>
+                  <li><a href="/walter-kingsbery">Walter W. Kingsbery</a></li>
+                </ul>
+              </li>
+              <li class="app-bar__item">
+                <a class="app-bar__link" href="/#practice">What we do</a>
+              </li>
+              <li class="app-bar__item">
+                <a class="app-bar__link" href="/contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div class="app-bar__scrim" aria-hidden="true"></div>
       </header>
