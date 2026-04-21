@@ -62,6 +62,7 @@
       </header>
 
       <main id="main" class="content-container" role="main" data-content-field="main-content">
+        {.if homepage}
         <section
           class="screen-hero"
           data-home-section
@@ -190,6 +191,7 @@
           </div>
           <p class="screen-hero__hint" aria-hidden="true">Scroll</p>
         </section>
+        {.end}
 
         <section
           id="practice"
