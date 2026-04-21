@@ -256,25 +256,25 @@
             <ul class="about__team-list">
               <li>
                 <a class="about__team-link" href="/love">
-                  <img class="about__team-photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love">
+                  <img class="about__team-photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" width="400" height="600" loading="lazy" decoding="async">
                   <span class="about__team-name">Eric V. Love</span>
                 </a>
               </li>
               <li>
                 <a class="about__team-link" href="/lehman">
-                  <img class="about__team-photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann">
+                  <img class="about__team-photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" width="400" height="600" loading="lazy" decoding="async">
                   <span class="about__team-name">Jonathan A. Lehmann</span>
                 </a>
               </li>
               <li>
                 <a class="about__team-link" href="/boyd">
-                  <img class="about__team-photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd">
+                  <img class="about__team-photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="400" height="600" loading="lazy" decoding="async">
                   <span class="about__team-name">Abby C. Boyd</span>
                 </a>
               </li>
               <li>
                 <a class="about__team-link" href="/kingsber">
-                  <img class="about__team-photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery">
+                  <img class="about__team-photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="400" height="600" loading="lazy" decoding="async">
                   <span class="about__team-name">Walter W. Kingsbery</span>
                 </a>
               </li>
@@ -303,34 +303,38 @@
               <img
                 src="assets/kingsbery-johnson/atty-group.jpg"
                 alt="Kingsbery, Johnson &amp; Love attorneys group photo"
+                width="600"
+                height="400"
+                loading="lazy"
+                decoding="async"
               >
             </p>
             <h2 class="page-sheet__title">Our attorneys</h2>
             <ul class="team-grid">
               <li>
                 <a class="team-card" href="/love">
-                  <img class="team-card__photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love">
+                  <img class="team-card__photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" width="400" height="600" loading="lazy" decoding="async">
                   <span class="team-card__name">Eric V. Love</span>
                   <span class="team-card__role">Partner · Estate &amp; trust</span>
                 </a>
               </li>
               <li>
                 <a class="team-card" href="/lehman">
-                  <img class="team-card__photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann">
+                  <img class="team-card__photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" width="400" height="600" loading="lazy" decoding="async">
                   <span class="team-card__name">Jonathan A. Lehmann</span>
                   <span class="team-card__role">Partner · Planning &amp; business</span>
                 </a>
               </li>
               <li>
                 <a class="team-card" href="/boyd">
-                  <img class="team-card__photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd">
+                  <img class="team-card__photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="400" height="600" loading="lazy" decoding="async">
                   <span class="team-card__name">Abby C. Boyd</span>
                   <span class="team-card__role">Partner · Planning &amp; probate</span>
                 </a>
               </li>
               <li>
                 <a class="team-card" href="/kingsber">
-                  <img class="team-card__photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery">
+                  <img class="team-card__photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="400" height="600" loading="lazy" decoding="async">
                   <span class="team-card__name">Walter W. Kingsbery</span>
                   <span class="team-card__role">Founding partner</span>
                 </a>
@@ -373,7 +377,7 @@
             <header class="profile__hero">
               <div class="profile__intro">
                 <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love Portrait">
+                  <img class="profile__photo-img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love Portrait" width="400" height="600" loading="lazy" decoding="async">
                 </div>
                 <div>
                   <p class="profile__role">Partner · Estate &amp; trust</p>
@@ -429,7 +433,7 @@
             <header class="profile__hero">
               <div class="profile__intro">
                 <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann Portrait">
+                  <img class="profile__photo-img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann Portrait" width="400" height="600" loading="lazy" decoding="async">
                 </div>
                 <div>
                   <p class="profile__role">Partner · Planning &amp; business</p>
@@ -490,7 +494,7 @@
             <header class="profile__hero">
               <div class="profile__intro">
                 <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd Portrait">
+                  <img class="profile__photo-img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd Portrait" width="400" height="600" loading="lazy" decoding="async">
                 </div>
                 <div>
                   <p class="profile__role">Partner · Planning &amp; probate</p>
@@ -549,7 +553,7 @@
             <header class="profile__hero">
               <div class="profile__intro">
                 <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery Portrait">
+                  <img class="profile__photo-img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery Portrait" width="400" height="600" loading="lazy" decoding="async">
                 </div>
                 <div>
                   <p class="profile__role">Of counsel · Estate planning</p>
