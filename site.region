@@ -486,7 +486,7 @@
         </section>
 
         <section class="page-profile" data-contact-section hidden>
-          <div class="page-sheet">
+          <div class="page-sheet page-sheet--contact">
             <nav class="profile__breadcrumb" aria-label="Breadcrumb">
               <a href="/">Home</a>
               · Contact
@@ -502,9 +502,6 @@
                 <p class="contact-block__lines">
                   Phone: <a href="tel:+13034434694">303.443.4694</a><br>
                   Fax: 303.443.1335
-                </p>
-                <p class="contact-block__fax">
-                  Would you like to hear from us? Please fill out this form.
                 </p>
               </div>
               <div class="contact-block contact-map">
