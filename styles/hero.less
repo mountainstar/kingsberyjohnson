@@ -134,6 +134,13 @@
   transition: transform var(--duration) var(--ease-out);
 }
 
+.screen-hero .screen-hero__cta,
+.screen-hero .screen-hero__cta:hover,
+.screen-hero .screen-hero__cta:focus-visible {
+  color: var(--white);
+  text-decoration: none;
+}
+
 .screen-hero__cta:hover,
 .screen-hero__cta:focus-visible {
   transform: translateX(4px);
@@ -159,6 +166,12 @@
   line-height: 1.05;
   letter-spacing: -0.03em;
   text-wrap: balance;
+  color: var(--white);
+}
+
+.screen-hero__kicker,
+.screen-hero__arrow {
+  color: rgba(255, 255, 255, 0.95);
 }
 
 .screen-hero__arrow {
