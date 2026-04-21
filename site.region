@@ -235,10 +235,30 @@
               Our attorneys
             </h3>
             <ul class="about__team-list">
-              <li><a class="about__team-link" href="/eric-love"><span class="about__team-name">Eric V. Love</span></a></li>
-              <li><a class="about__team-link" href="/jonathan-lehmann"><span class="about__team-name">Jonathan A. Lehmann</span></a></li>
-              <li><a class="about__team-link" href="/abby-boyd"><span class="about__team-name">Abby C. Boyd</span></a></li>
-              <li><a class="about__team-link" href="/walter-kingsbery"><span class="about__team-name">Walter W. Kingsbery</span></a></li>
+              <li>
+                <a class="about__team-link" href="/eric-love">
+                  <img class="about__team-photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love">
+                  <span class="about__team-name">Eric V. Love</span>
+                </a>
+              </li>
+              <li>
+                <a class="about__team-link" href="/jonathan-lehmann">
+                  <img class="about__team-photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann">
+                  <span class="about__team-name">Jonathan A. Lehmann</span>
+                </a>
+              </li>
+              <li>
+                <a class="about__team-link" href="/abby-boyd">
+                  <img class="about__team-photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd">
+                  <span class="about__team-name">Abby C. Boyd</span>
+                </a>
+              </li>
+              <li>
+                <a class="about__team-link" href="/walter-kingsbery">
+                  <img class="about__team-photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery">
+                  <span class="about__team-name">Walter W. Kingsbery</span>
+                </a>
+              </li>
             </ul>
             <p class="about__team-more">
               <a href="/who-we-are">Meet the team</a>
