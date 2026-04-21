@@ -485,6 +485,30 @@
           </div>
         </section>
 
+        <section class="page-profile" data-contact-section hidden>
+          <div class="page-sheet">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a>
+              · Contact
+            </nav>
+            <h1 class="page-sheet__title">Contact</h1>
+            <div class="contact-block">
+              <address class="contact-block__address">
+                Kingsbery, Johnson &amp; Love, LLP<br>
+                2672 North Park Drive, Suite 100<br>
+                Lafayette, CO 80026
+              </address>
+              <p class="contact-block__lines">
+                Phone: <a href="tel:+13034434694">303.443.4694</a><br>
+                Fax: 303.443.1335
+              </p>
+              <p class="contact-block__fax">
+                Would you like to hear from us? Please fill out this form.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section class="page-profile" data-who-section hidden>
           <div class="page-sheet">
             <nav class="profile__breadcrumb" aria-label="Breadcrumb">

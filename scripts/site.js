@@ -28,6 +28,7 @@
     var isHome = path === '/' || path === '/welcome';
     var isWho = path === '/who' || path === '/who-we-are';
     var isWhat = path === '/what' || path === '/what-we-do';
+    var isContact = path === '/contact' || path === '/contact-us';
     var profileSlugs = ['love', 'lehman', 'boyd', 'kingsber'];
     var practiceSlugs = ['estateplanning', 'estateprobatetrust', 'businesslaw'];
     var activeProfile = null;
@@ -47,6 +48,7 @@
     var homeSections = document.querySelectorAll('[data-home-section]');
     var whoSections = document.querySelectorAll('[data-who-section]');
     var whatSections = document.querySelectorAll('[data-what-section]');
+    var contactSections = document.querySelectorAll('[data-contact-section]');
     var practiceSections = document.querySelectorAll('[data-practice-section]');
     var profileSections = document.querySelectorAll('[data-profile-section]');
     var cmsSection = document.querySelector('[data-cms-content]');
@@ -56,6 +58,7 @@
       body.classList.toggle('is-home-route', isHome);
       body.classList.toggle('is-who-route', isWho);
       body.classList.toggle('is-what-route', isWhat);
+      body.classList.toggle('is-contact-route', isContact);
       body.classList.toggle('is-practice-route', !!activePractice);
       body.classList.toggle('is-profile-route', !!activeProfile);
     }
@@ -69,6 +72,9 @@
     whatSections.forEach(function (el) {
       el.hidden = !isWhat;
     });
+    contactSections.forEach(function (el) {
+      el.hidden = !isContact;
+    });
     practiceSections.forEach(function (el) {
       var slug = el.getAttribute('data-practice-section');
       el.hidden = slug !== activePractice;
@@ -79,7 +85,7 @@
     });
 
     if (cmsSection) {
-      cmsSection.hidden = isHome || isWho || isWhat || !!activePractice || !!activeProfile;
+      cmsSection.hidden = isHome || isWho || isWhat || isContact || !!activePractice || !!activeProfile;
     }
   }
 

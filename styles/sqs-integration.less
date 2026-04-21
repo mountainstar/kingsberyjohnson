@@ -43,6 +43,7 @@ body.collection-type-blog .title {
 [data-home-section],
 [data-who-section],
 [data-what-section],
+[data-contact-section],
 [data-practice-section],
 [data-profile-section] {
   display: none;
@@ -60,6 +61,10 @@ body.is-what-route [data-what-section]:not([hidden]) {
   display: block;
 }
 
+body.is-contact-route [data-contact-section]:not([hidden]) {
+  display: block;
+}
+
 body.is-practice-route [data-practice-section]:not([hidden]) {
   display: block;
 }
@@ -71,6 +76,7 @@ body.is-profile-route [data-profile-section]:not([hidden]) {
 body.is-home-route [data-cms-content],
 body.is-who-route [data-cms-content],
 body.is-what-route [data-cms-content],
+body.is-contact-route [data-cms-content],
 body.is-practice-route [data-cms-content],
 body.is-profile-route [data-cms-content] {
   display: none;
