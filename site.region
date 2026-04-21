@@ -42,7 +42,6 @@
       </header>
 
       <main id="main" class="content-container" role="main" data-content-field="main-content">
-        {.if homepage}
         <section
           class="screen-hero"
           aria-label="Practice highlights"
@@ -246,7 +245,6 @@
             </p>
           </div>
         </section>
-        {.end}
 
         {squarespace.main-content}
       </main>
