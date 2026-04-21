@@ -433,7 +433,7 @@
             <header class="profile__hero">
               <div class="profile__intro">
                 <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Portrait of Jonathan A. Lehmann">
+                  <img class="profile__photo-img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann Portrait">
                 </div>
                 <div>
                   <p class="profile__role">Partner · Planning &amp; business</p>
@@ -449,8 +449,23 @@
               <section class="profile__section">
                 <h2>Overview</h2>
                 <p>
-                  Jonathan works with business owners, executives, and families on estate plans,
-                  succession issues, and day-to-day business matters.
+                  Jonathan A. Lehmann is a partner with the firm. His practice focuses on
+                  estate and tax planning; probate, estate and trust administration; advising
+                  family and closely-held businesses; and counseling executives and entrepreneurs.
+                </p>
+                <p>
+                  Jonathan is originally from Minnesota. He received his undergraduate degree
+                  from Wisconsin in 2000 (magna cum laude) and his law degree from Florida State
+                  University School of Law in 2005 (cum laude). While at Florida State, he served
+                  as a tax research assistant and was a member of the Journal of Transnational Law
+                  &amp; Policy and Journal of Land Use &amp; Environmental Law. Jonathan has presented
+                  at various seminars covering topics such as charitable planning and giving, succession
+                  planning, the pitfalls of serving as a trustee and considerations for buy-sell
+                  agreements. Jonathan is a member of the American, Colorado, Denver and Boulder County
+                  Bar associations. He is also admitted to the Federal Court of Claims. In his spare
+                  time, Jonathan is a member of Social Venture Partners of Boulder County and a founder
+                  of the Boulder Business Leaders Group. He lives in Lafayette with his wife Shawna and
+                  his two sons, Graham and Owen.
                 </p>
               </section>
               <section class="profile__section">
@@ -483,7 +498,7 @@
             <header class="profile__hero">
               <div class="profile__intro">
                 <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/abby-boyd.jpg" alt="Portrait of Abby C. Boyd">
+                  <img class="profile__photo-img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd Portrait">
                 </div>
                 <div>
                   <p class="profile__role">Partner · Planning &amp; probate</p>
@@ -499,8 +514,21 @@
               <section class="profile__section">
                 <h2>Overview</h2>
                 <p>
-                  Abby helps clients design estate plans that reflect family dynamics, charitable intent,
-                  and long-term care considerations.
+                  Abby C. Boyd is a partner with the firm. Her practice focuses on estate and tax
+                  planning and estate and trust administration. Originally from Maryland, she has
+                  lived in Colorado since 2014.
+                </p>
+                <p>
+                  She received her undergraduate degree from the University of Maryland, Baltimore
+                  County (UMBC) and a master's degree in teaching from Towson University. Prior to
+                  attending law school, she was a high school social studies teacher. She graduated
+                  from the University of Baltimore School of Law (summa cum laude) and was awarded
+                  entry into the Heuisler Honor Society. Before joining the firm, Abby was a law clerk
+                  for the Honorable Edward D. Bronfin in Denver District Court. She is a former chair
+                  of the City of Lafayette's Human Rights Commission and has previously served as Chair
+                  of the Tax, Estate Planning, and Probate Section of the Boulder County Bar Association.
+                  She is a member of the Colorado, Colorado Women's, and Boulder County bar associations.
+                  Abby lives in Lafayette, and enjoys reading, hiking, and cooking.
                 </p>
               </section>
               <section class="profile__section">
@@ -533,10 +561,10 @@
             <header class="profile__hero">
               <div class="profile__intro">
                 <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/walter-kingsbery.jpg" alt="Portrait of Walter W. Kingsbery">
+                  <img class="profile__photo-img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery Portrait">
                 </div>
                 <div>
-                  <p class="profile__role">Founding partner · Planning &amp; business</p>
+                  <p class="profile__role">Of counsel · Estate planning</p>
                   <h1 class="profile__name">Walter W. Kingsbery</h1>
                   <div class="profile__actions">
                     <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
@@ -549,8 +577,16 @@
               <section class="profile__section">
                 <h2>Overview</h2>
                 <p>
-                  Walter has advised Colorado clients on estate planning, closely held business matters,
-                  and fiduciary administration for decades.
+                  Walter W. Kingsbery is "mostly" retired, but remains of counsel to the firm.
+                  He received his undergraduate degree in accounting from Texas A&amp;M in 1975,
+                  and his law degree from Harvard University in 1979.
+                </p>
+                <p>
+                  His practice focuses on estate planning, estate and trust administration and tax-exempt
+                  organizations. Walter is currently on the board of directors of Live by Living Foundation,
+                  and has served on the boards of the International Mountain Explorers Connection, Imagine!
+                  and Global Response. He spends his free time on a wide spectrum of outdoor activities,
+                  reading, relaxing and socializing.
                 </p>
               </section>
               <section class="profile__section">
