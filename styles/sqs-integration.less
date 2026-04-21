@@ -107,3 +107,12 @@ body.is-contact-route [data-cms-content] .sqs-block-form {
   border: 1px solid rgba(26, 61, 48, 0.1);
   box-shadow: var(--shadow-soft);
 }
+
+body.is-contact-route [data-cms-content] .sqs-block-form::before {
+  content: "Contact form";
+  display: block;
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-display);
+  font-size: clamp(1.375rem, 2.5vw, 1.75rem);
+  color: var(--forest);
+}
