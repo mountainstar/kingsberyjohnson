@@ -314,10 +314,6 @@
               <a href="tel:+13034434694">303.443.4694</a>
             </address>
           </div>
-          <div class="site-footer__blocks site-footer__col">
-            <p class="site-footer__label">Footer Blocks</p>
-            <squarespace:block-field id="footerBlocks" columns="12" />
-          </div>
         </div>
         <p class="site-footer__meta">
           &copy; {.section website}{siteTitle}{.end}
