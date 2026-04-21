@@ -58,7 +58,7 @@
               >
                 <img
                   class="screen-hero__img"
-                  src="/assets/kingsbery-johnson/estate-planning-orbit.jpg"
+                  src="assets/kingsbery-johnson/estate-planning-orbit.jpg"
                   alt=""
                   width="1200"
                   height="800"
@@ -70,7 +70,7 @@
                   <div class="screen-hero__brand-badge">
                     <img
                       class="screen-hero__brand-logo"
-                      src="/assets/kingsbery-johnson/KJL-logo.png"
+                      src="assets/kingsbery-johnson/KJL-logo.png"
                       width="560"
                       height="258"
                       alt=""
@@ -94,7 +94,7 @@
               >
                 <img
                   class="screen-hero__img"
-                  src="/assets/kingsbery-johnson/estate-probate-trust-orbit.jpg"
+                  src="assets/kingsbery-johnson/estate-probate-trust-orbit.jpg"
                   alt=""
                   width="1200"
                   height="800"
@@ -117,7 +117,7 @@
               >
                 <img
                   class="screen-hero__img"
-                  src="/assets/kingsbery-johnson/business-orbit.jpg"
+                  src="assets/kingsbery-johnson/business-orbit.jpg"
                   alt=""
                   width="1200"
                   height="800"
