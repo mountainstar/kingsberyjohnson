@@ -492,19 +492,49 @@
               · Contact
             </nav>
             <h1 class="page-sheet__title">Contact</h1>
-            <div class="contact-block">
-              <address class="contact-block__address">
-                Kingsbery, Johnson &amp; Love, LLP<br>
-                2672 North Park Drive, Suite 100<br>
-                Lafayette, CO 80026
-              </address>
-              <p class="contact-block__lines">
-                Phone: <a href="tel:+13034434694">303.443.4694</a><br>
-                Fax: 303.443.1335
-              </p>
-              <p class="contact-block__fax">
-                Would you like to hear from us? Please fill out this form.
-              </p>
+            <div class="contact-layout">
+              <div class="contact-block">
+                <address class="contact-block__address">
+                  Kingsbery, Johnson &amp; Love, LLP<br>
+                  2672 North Park Drive, Suite 100<br>
+                  Lafayette, CO 80026
+                </address>
+                <p class="contact-block__lines">
+                  Phone: <a href="tel:+13034434694">303.443.4694</a><br>
+                  Fax: 303.443.1335
+                </p>
+                <p class="contact-block__fax">
+                  Would you like to hear from us? Please fill out this form.
+                </p>
+              </div>
+              <div class="contact-block contact-map">
+                <h2 class="service-card__title">Map</h2>
+                <iframe
+                  title="Map to Kingsbery, Johnson &amp; Love, LLP"
+                  src="https://www.google.com/maps?q=2672+North+Park+Drive+Suite+100+Lafayette+CO+80026&amp;output=embed"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="contact-block contact-form">
+                <h2 class="service-card__title">Contact form</h2>
+                <form action="/contact" method="post">
+                  <label for="contact-name">Name</label>
+                  <input id="contact-name" name="name" type="text" autocomplete="name" required>
+
+                  <label for="contact-email">Email</label>
+                  <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+                  <label for="contact-phone">Phone</label>
+                  <input id="contact-phone" name="phone" type="tel" autocomplete="tel">
+
+                  <label for="contact-message">Message</label>
+                  <textarea id="contact-message" name="message" rows="6" required></textarea>
+
+                  <button type="submit" class="profile__btn profile__btn--filled">Send message</button>
+                </form>
+              </div>
             </div>
           </div>
         </section>
