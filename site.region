@@ -378,10 +378,6 @@
                 <div>
                   <p class="profile__role">Partner · Estate &amp; trust</p>
                   <h1 class="profile__name">Eric V. Love</h1>
-                  <div class="profile__actions">
-                    <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
-                    <a class="profile__btn profile__btn--outline" href="/contact">Contact the firm</a>
-                  </div>
                 </div>
               </div>
             </header>
@@ -438,10 +434,6 @@
                 <div>
                   <p class="profile__role">Partner · Planning &amp; business</p>
                   <h1 class="profile__name">Jonathan A. Lehmann</h1>
-                  <div class="profile__actions">
-                    <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
-                    <a class="profile__btn profile__btn--outline" href="/contact">Contact the firm</a>
-                  </div>
                 </div>
               </div>
             </header>
@@ -503,10 +495,6 @@
                 <div>
                   <p class="profile__role">Partner · Planning &amp; probate</p>
                   <h1 class="profile__name">Abby C. Boyd</h1>
-                  <div class="profile__actions">
-                    <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
-                    <a class="profile__btn profile__btn--outline" href="/contact">Contact the firm</a>
-                  </div>
                 </div>
               </div>
             </header>
@@ -566,10 +554,6 @@
                 <div>
                   <p class="profile__role">Of counsel · Estate planning</p>
                   <h1 class="profile__name">Walter W. Kingsbery</h1>
-                  <div class="profile__actions">
-                    <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
-                    <a class="profile__btn profile__btn--outline" href="/contact">Contact the firm</a>
-                  </div>
                 </div>
               </div>
             </header>
