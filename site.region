@@ -373,7 +373,7 @@
             <header class="profile__hero">
               <div class="profile__intro">
                 <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/eric-love.jpg" alt="Portrait of Eric V. Love">
+                  <img class="profile__photo-img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love Portrait">
                 </div>
                 <div>
                   <p class="profile__role">Partner · Estate &amp; trust</p>
@@ -389,12 +389,18 @@
               <section class="profile__section">
                 <h2>Overview</h2>
                 <p>
-                  Eric guides individuals and families through estate planning, wealth transfer,
-                  and trust administration with an emphasis on clear communication and practical outcomes.
+                  Eric V. Love is the managing partner of the firm. His practice focuses on
+                  estate planning, estate and trust administration and estate and gift tax matters.
                 </p>
                 <p>
-                  He often coordinates with financial advisors and accountants so plans remain aligned
-                  with client goals over time.
+                  Eric received his undergraduate degree in business administration and accounting
+                  from the University of Kansas. He is also a CPA and worked for Deloitte &amp; Touche
+                  as an auditor. Eric received his law degree from the University of Kansas before joining
+                  the firm in 1994. He has served on the boards of directors of the Colorado Music Festival,
+                  Downtown Boulder, Inc., Imagine!, and the Board of Trustees of the Boulder Community
+                  Hospital Foundation. Eric is listed in the Best Lawyers of America 2017 Trusts and Estates.
+                  He is AV Pre-Eminent rated by Martindale Hubbell. Eric lives in Erie with his wife Jennifer
+                  and son Joshua.
                 </p>
               </section>
               <section class="profile__section">
