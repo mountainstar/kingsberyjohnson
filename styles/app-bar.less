@@ -18,7 +18,7 @@
   align-items: center;
   gap: var(--space-2);
   width: 100%;
-  min-height: calc(var(--app-bar-height) + env(safe-area-inset-top, 0px));
+  min-height: ~"calc(var(--app-bar-height) + env(safe-area-inset-top, 0px))";
   padding-top: env(safe-area-inset-top, 0px);
   padding-inline: max(var(--space-4), env(safe-area-inset-left, 0px))
     max(var(--space-4), env(safe-area-inset-right, 0px));
@@ -176,7 +176,7 @@
 
 .app-bar__nav {
   position: fixed;
-  top: calc(var(--app-bar-height) + env(safe-area-inset-top, 0px));
+  top: ~"calc(var(--app-bar-height) + env(safe-area-inset-top, 0px))";
   right: 0;
   bottom: 0;
   z-index: 4;
