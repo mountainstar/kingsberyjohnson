@@ -26,10 +26,16 @@
   function applyRouteSections() {
     var path = normalizePath(window.location.pathname);
     var isHome = path === '/' || path === '/welcome';
-    var isWho = path === '/who';
+    var isWho = path === '/who' || path === '/who-we-are';
     var homeSections = document.querySelectorAll('[data-home-section]');
     var whoSections = document.querySelectorAll('[data-who-section]');
     var cmsSection = document.querySelector('[data-cms-content]');
+    var body = document.body;
+
+    if (body) {
+      body.classList.toggle('is-home-route', isHome);
+      body.classList.toggle('is-who-route', isWho);
+    }
 
     homeSections.forEach(function (el) {
       el.hidden = !isHome;

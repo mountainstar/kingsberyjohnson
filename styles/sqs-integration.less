@@ -38,3 +38,22 @@ body.collection-type-blog.view-list .blog-list-item + .blog-list-item {
 body.collection-type-blog .title {
   font-family: var(--font-display);
 }
+
+/* Route-specific section visibility toggles */
+[data-home-section],
+[data-who-section] {
+  display: none;
+}
+
+body.is-home-route [data-home-section] {
+  display: block;
+}
+
+body.is-who-route [data-who-section] {
+  display: block;
+}
+
+body.is-home-route [data-cms-content],
+body.is-who-route [data-cms-content] {
+  display: none;
+}
