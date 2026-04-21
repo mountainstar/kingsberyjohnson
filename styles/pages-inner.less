@@ -1,0 +1,114 @@
+/* Inner pages (who we are, contact, team cards) */
+.page-sheet {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-5) var(--space-16);
+}
+
+.page-sheet__title {
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 600;
+  color: var(--forest);
+  letter-spacing: -0.03em;
+}
+
+.page-sheet__lead {
+  margin: 0 0 var(--space-10);
+  font-size: 1.0625rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  line-height: 1.65;
+  max-width: 42rem;
+}
+
+.team-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 560px) {
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-3);
+  padding: var(--space-6) var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  border: 1px solid rgba(26, 61, 48, 0.1);
+  box-shadow: var(--shadow-soft);
+  text-decoration: none;
+  color: inherit;
+  transition: transform var(--md-duration-short) var(--ease-standard),
+    box-shadow var(--md-duration-short) var(--ease-standard);
+}
+
+.team-card:hover,
+.team-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(20, 26, 23, 0.12);
+  outline: none;
+}
+
+.team-card__photo {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  box-shadow: 0 2px 12px rgba(20, 26, 23, 0.12);
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+.team-card__name {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--forest);
+}
+
+.team-card__role {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--ink-muted);
+  line-height: 1.35;
+}
+
+.contact-block {
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  border: 1px solid rgba(26, 61, 48, 0.1);
+  box-shadow: var(--shadow-soft);
+}
+
+.contact-block__address {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--ink);
+  margin-bottom: var(--space-5);
+}
+
+.contact-block__lines {
+  margin: 0 0 var(--space-3);
+}
+
+.contact-block__fax {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--ink-muted);
+}

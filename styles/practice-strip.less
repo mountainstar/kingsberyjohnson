@@ -1,0 +1,53 @@
+/* Home #practice strip */
+.practice-strip {
+  background: var(--cream-dark);
+  border-block: 1px solid rgba(26, 61, 48, 0.08);
+}
+
+.practice-strip__inner {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.practice-strip__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--forest);
+  letter-spacing: -0.02em;
+}
+
+.practice-strip__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-8);
+}
+
+.practice-strip__link {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  color: var(--forest-bright);
+  text-decoration: none;
+}
+
+.practice-strip__link:hover,
+.practice-strip__link:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+@media (min-width: 640px) {
+  .practice-strip__inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
