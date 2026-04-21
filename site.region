@@ -288,7 +288,34 @@
               <p class="site-footer__tagline">Estate · Probate · Business</p>
             {.end}
           </div>
-          <div class="site-footer__blocks">
+          <nav class="site-footer__col" aria-label="Explore">
+            <p class="site-footer__label">Explore</p>
+            <ul class="site-footer__list">
+              <li><a href="/">Home</a></li>
+              <li><a href="/who-we-are">Who we are</a></li>
+              <li><a href="/#practice">What we do</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+          </nav>
+          <nav class="site-footer__col" aria-label="Attorneys">
+            <p class="site-footer__label">Attorneys</p>
+            <ul class="site-footer__list">
+              <li><a href="/eric-love">Eric V. Love</a></li>
+              <li><a href="/jonathan-lehmann">Jonathan A. Lehmann</a></li>
+              <li><a href="/abby-boyd">Abby C. Boyd</a></li>
+              <li><a href="/walter-kingsbery">Walter W. Kingsbery</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__col site-footer__col--contact">
+            <p class="site-footer__label">Visit</p>
+            <address class="site-footer__address">
+              2672 North Park Dr, Ste 100<br>
+              Lafayette, CO 80026<br>
+              <a href="tel:+13034434694">303.443.4694</a>
+            </address>
+          </div>
+          <div class="site-footer__blocks site-footer__col">
+            <p class="site-footer__label">Footer Blocks</p>
             <squarespace:block-field id="footerBlocks" columns="12" />
           </div>
         </div>
