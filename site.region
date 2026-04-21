@@ -293,9 +293,13 @@
             </nav>
             <h1 class="page-sheet__title">Who we are</h1>
             <p class="page-sheet__lead">
-              Our attorneys work as a team to guide Colorado clients through estate planning,
-              probate and trust administration, and business matters.
+              Kingsbery, Johnson &amp; Love, LLP, is a boutique law firm located in Lafayette,
+              Colorado. Our practice is focused on estate, wealth transfer, and tax planning
+              services, as well as estate and trust administration. The firm was founded in
+              1982 and serves Boulder County, the Denver metro area, and surrounding communities
+              throughout Colorado.
             </p>
+            <h2 class="page-sheet__title">Our attorneys</h2>
             <ul class="team-grid">
               <li>
                 <a class="team-card" href="/eric-love">
@@ -325,6 +329,32 @@
                   <span class="team-card__role">Founding partner</span>
                 </a>
               </li>
+            </ul>
+            <h2 class="page-sheet__title">Our attorneys have represented clients in:</h2>
+            <ul class="page-sheet__list">
+              <li>
+                Estate and tax planning for high-net worth clients with complex assets including
+                real estate investments and private equity interests, international assets and
+                complex trusts;
+              </li>
+              <li>
+                Estate, probate and trust administration involving seven figure estate tax liability
+                and assessing tax consequences of complex trusts;
+              </li>
+              <li>
+                Adversarial probate and trust proceedings involving disputes among beneficiaries as
+                well as representing fiduciaries during administration of an estate;
+              </li>
+              <li>Expert testimony regarding trusts in a divorce context;</li>
+              <li>
+                Working with entrepreneurs on establishing businesses, choice of entity, partnership
+                agreements and buy-sell agreements;
+              </li>
+              <li>
+                Advising family owned and closely-held companies on succession and tax planning;
+              </li>
+              <li>Representing clients during marital agreement negotiations;</li>
+              <li>Advising executives on consulting contracts and liability concerns.</li>
             </ul>
           </div>
         </section>
