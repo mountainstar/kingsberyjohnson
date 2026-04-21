@@ -85,7 +85,7 @@
     });
 
     if (cmsSection) {
-      cmsSection.hidden = isHome || isWho || isWhat || isContact || !!activePractice || !!activeProfile;
+      cmsSection.hidden = isHome || isWho || isWhat || !!activePractice || !!activeProfile;
     }
   }
 

@@ -519,21 +519,9 @@
               </div>
               <div class="contact-block contact-form">
                 <h2 class="service-card__title">Contact form</h2>
-                <form action="/contact" method="post">
-                  <label for="contact-name">Name</label>
-                  <input id="contact-name" name="name" type="text" autocomplete="name" required>
-
-                  <label for="contact-email">Email</label>
-                  <input id="contact-email" name="email" type="email" autocomplete="email" required>
-
-                  <label for="contact-phone">Phone</label>
-                  <input id="contact-phone" name="phone" type="tel" autocomplete="tel">
-
-                  <label for="contact-message">Message</label>
-                  <textarea id="contact-message" name="message" rows="6" required></textarea>
-
-                  <button type="submit" class="profile__btn profile__btn--filled">Send message</button>
-                </form>
+                <p class="contact-block__fax">
+                  Use the form below to contact us.
+                </p>
               </div>
             </div>
           </div>

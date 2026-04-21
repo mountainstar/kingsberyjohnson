@@ -76,8 +76,26 @@ body.is-profile-route [data-profile-section]:not([hidden]) {
 body.is-home-route [data-cms-content],
 body.is-who-route [data-cms-content],
 body.is-what-route [data-cms-content],
-body.is-contact-route [data-cms-content],
 body.is-practice-route [data-cms-content],
 body.is-profile-route [data-cms-content] {
   display: none;
+}
+
+body.is-contact-route [data-cms-content] {
+  display: block;
+}
+
+body.is-contact-route [data-cms-content] .content-container .sqs-layout,
+body.is-contact-route [data-cms-content] .sqs-layout {
+  max-width: 52rem;
+  margin: 0 auto var(--space-16);
+  padding: 0 var(--space-5);
+}
+
+body.is-contact-route [data-cms-content] .sqs-block-form {
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  border: 1px solid rgba(26, 61, 48, 0.1);
+  box-shadow: var(--shadow-soft);
 }
