@@ -41,7 +41,8 @@ body.collection-type-blog .title {
 
 /* Route-specific section visibility toggles */
 [data-home-section],
-[data-who-section] {
+[data-who-section],
+[data-profile-section] {
   display: none;
 }
 
@@ -53,7 +54,12 @@ body.is-who-route [data-who-section] {
   display: block;
 }
 
+body.is-profile-route [data-profile-section] {
+  display: block;
+}
+
 body.is-home-route [data-cms-content],
-body.is-who-route [data-cms-content] {
+body.is-who-route [data-cms-content],
+body.is-profile-route [data-cms-content] {
   display: none;
 }

@@ -43,10 +43,10 @@
               <li class="app-bar__item app-bar__item--has-sub">
                 <a class="app-bar__link" href="/who">Who we are</a>
                 <ul class="app-bar__sub" aria-label="Attorneys">
-                  <li><a href="/eric-love">Eric V. Love</a></li>
-                  <li><a href="/jonathan-lehmann">Jonathan A. Lehmann</a></li>
-                  <li><a href="/abby-boyd">Abby C. Boyd</a></li>
-                  <li><a href="/walter-kingsbery">Walter W. Kingsbery</a></li>
+                  <li><a href="/love">Eric V. Love</a></li>
+                  <li><a href="/lehman">Jonathan A. Lehmann</a></li>
+                  <li><a href="/boyd">Abby C. Boyd</a></li>
+                  <li><a href="/kingsber">Walter W. Kingsbery</a></li>
                 </ul>
               </li>
               <li class="app-bar__item">
@@ -255,25 +255,25 @@
             </h3>
             <ul class="about__team-list">
               <li>
-                <a class="about__team-link" href="/eric-love">
+                <a class="about__team-link" href="/love">
                   <img class="about__team-photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love">
                   <span class="about__team-name">Eric V. Love</span>
                 </a>
               </li>
               <li>
-                <a class="about__team-link" href="/jonathan-lehmann">
+                <a class="about__team-link" href="/lehman">
                   <img class="about__team-photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann">
                   <span class="about__team-name">Jonathan A. Lehmann</span>
                 </a>
               </li>
               <li>
-                <a class="about__team-link" href="/abby-boyd">
+                <a class="about__team-link" href="/boyd">
                   <img class="about__team-photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd">
                   <span class="about__team-name">Abby C. Boyd</span>
                 </a>
               </li>
               <li>
-                <a class="about__team-link" href="/walter-kingsbery">
+                <a class="about__team-link" href="/kingsber">
                   <img class="about__team-photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery">
                   <span class="about__team-name">Walter W. Kingsbery</span>
                 </a>
@@ -302,28 +302,28 @@
             <h2 class="page-sheet__title">Our attorneys</h2>
             <ul class="team-grid">
               <li>
-                <a class="team-card" href="/eric-love">
+                <a class="team-card" href="/love">
                   <img class="team-card__photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love">
                   <span class="team-card__name">Eric V. Love</span>
                   <span class="team-card__role">Partner · Estate &amp; trust</span>
                 </a>
               </li>
               <li>
-                <a class="team-card" href="/jonathan-lehmann">
+                <a class="team-card" href="/lehman">
                   <img class="team-card__photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann">
                   <span class="team-card__name">Jonathan A. Lehmann</span>
                   <span class="team-card__role">Partner · Planning &amp; business</span>
                 </a>
               </li>
               <li>
-                <a class="team-card" href="/abby-boyd">
+                <a class="team-card" href="/boyd">
                   <img class="team-card__photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd">
                   <span class="team-card__name">Abby C. Boyd</span>
                   <span class="team-card__role">Partner · Planning &amp; probate</span>
                 </a>
               </li>
               <li>
-                <a class="team-card" href="/walter-kingsbery">
+                <a class="team-card" href="/kingsber">
                   <img class="team-card__photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery">
                   <span class="team-card__name">Walter W. Kingsbery</span>
                   <span class="team-card__role">Founding partner</span>
@@ -357,6 +357,210 @@
               <li>Advising executives on consulting contracts and liability concerns.</li>
             </ul>
           </div>
+        </section>
+
+        <section class="page-profile" data-profile-section="love" hidden>
+          <article class="profile">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a> · <a href="/who">Who we are</a> · Eric V. Love
+            </nav>
+            <header class="profile__hero">
+              <div class="profile__intro">
+                <div class="profile__photo-frame">
+                  <img class="profile__photo-img" src="assets/attorneys/eric-love.jpg" alt="Portrait of Eric V. Love">
+                </div>
+                <div>
+                  <p class="profile__role">Partner · Estate &amp; trust</p>
+                  <h1 class="profile__name">Eric V. Love</h1>
+                  <div class="profile__actions">
+                    <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
+                    <a class="profile__btn profile__btn--outline" href="/contact">Contact the firm</a>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <div class="profile__body">
+              <section class="profile__section">
+                <h2>Overview</h2>
+                <p>
+                  Eric guides individuals and families through estate planning, wealth transfer,
+                  and trust administration with an emphasis on clear communication and practical outcomes.
+                </p>
+                <p>
+                  He often coordinates with financial advisors and accountants so plans remain aligned
+                  with client goals over time.
+                </p>
+              </section>
+              <section class="profile__section">
+                <h2>Practice areas</h2>
+                <ul>
+                  <li>Estate planning and wills</li>
+                  <li>Revocable and irrevocable trusts</li>
+                  <li>Probate and trust administration</li>
+                  <li>Tax-sensitive wealth transfer strategies</li>
+                </ul>
+              </section>
+            </div>
+            <nav class="profile__siblings" aria-label="Our attorneys">
+              <h2 class="profile__siblings-title">Our attorneys</h2>
+              <ul class="profile__siblings-list">
+                <li><a href="/love" aria-current="page">Eric V. Love</a></li>
+                <li><a href="/lehman">Jonathan A. Lehmann</a></li>
+                <li><a href="/boyd">Abby C. Boyd</a></li>
+                <li><a href="/kingsber">Walter W. Kingsbery</a></li>
+              </ul>
+            </nav>
+          </article>
+        </section>
+
+        <section class="page-profile" data-profile-section="lehman" hidden>
+          <article class="profile">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann
+            </nav>
+            <header class="profile__hero">
+              <div class="profile__intro">
+                <div class="profile__photo-frame">
+                  <img class="profile__photo-img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Portrait of Jonathan A. Lehmann">
+                </div>
+                <div>
+                  <p class="profile__role">Partner · Planning &amp; business</p>
+                  <h1 class="profile__name">Jonathan A. Lehmann</h1>
+                  <div class="profile__actions">
+                    <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
+                    <a class="profile__btn profile__btn--outline" href="/contact">Contact the firm</a>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <div class="profile__body">
+              <section class="profile__section">
+                <h2>Overview</h2>
+                <p>
+                  Jonathan works with business owners, executives, and families on estate plans,
+                  succession issues, and day-to-day business matters.
+                </p>
+              </section>
+              <section class="profile__section">
+                <h2>Practice areas</h2>
+                <ul>
+                  <li>Estate and gift planning</li>
+                  <li>Business formation and governance</li>
+                  <li>Contracts and transactions</li>
+                  <li>Trust administration</li>
+                </ul>
+              </section>
+            </div>
+            <nav class="profile__siblings" aria-label="Our attorneys">
+              <h2 class="profile__siblings-title">Our attorneys</h2>
+              <ul class="profile__siblings-list">
+                <li><a href="/love">Eric V. Love</a></li>
+                <li><a href="/lehman" aria-current="page">Jonathan A. Lehmann</a></li>
+                <li><a href="/boyd">Abby C. Boyd</a></li>
+                <li><a href="/kingsber">Walter W. Kingsbery</a></li>
+              </ul>
+            </nav>
+          </article>
+        </section>
+
+        <section class="page-profile" data-profile-section="boyd" hidden>
+          <article class="profile">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a> · <a href="/who">Who we are</a> · Abby C. Boyd
+            </nav>
+            <header class="profile__hero">
+              <div class="profile__intro">
+                <div class="profile__photo-frame">
+                  <img class="profile__photo-img" src="assets/attorneys/abby-boyd.jpg" alt="Portrait of Abby C. Boyd">
+                </div>
+                <div>
+                  <p class="profile__role">Partner · Planning &amp; probate</p>
+                  <h1 class="profile__name">Abby C. Boyd</h1>
+                  <div class="profile__actions">
+                    <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
+                    <a class="profile__btn profile__btn--outline" href="/contact">Contact the firm</a>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <div class="profile__body">
+              <section class="profile__section">
+                <h2>Overview</h2>
+                <p>
+                  Abby helps clients design estate plans that reflect family dynamics, charitable intent,
+                  and long-term care considerations.
+                </p>
+              </section>
+              <section class="profile__section">
+                <h2>Practice areas</h2>
+                <ul>
+                  <li>Wills and powers of attorney</li>
+                  <li>Special needs and supplemental planning</li>
+                  <li>Probate administration</li>
+                  <li>Trust modification and distribution</li>
+                </ul>
+              </section>
+            </div>
+            <nav class="profile__siblings" aria-label="Our attorneys">
+              <h2 class="profile__siblings-title">Our attorneys</h2>
+              <ul class="profile__siblings-list">
+                <li><a href="/love">Eric V. Love</a></li>
+                <li><a href="/lehman">Jonathan A. Lehmann</a></li>
+                <li><a href="/boyd" aria-current="page">Abby C. Boyd</a></li>
+                <li><a href="/kingsber">Walter W. Kingsbery</a></li>
+              </ul>
+            </nav>
+          </article>
+        </section>
+
+        <section class="page-profile" data-profile-section="kingsber" hidden>
+          <article class="profile">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery
+            </nav>
+            <header class="profile__hero">
+              <div class="profile__intro">
+                <div class="profile__photo-frame">
+                  <img class="profile__photo-img" src="assets/attorneys/walter-kingsbery.jpg" alt="Portrait of Walter W. Kingsbery">
+                </div>
+                <div>
+                  <p class="profile__role">Founding partner · Planning &amp; business</p>
+                  <h1 class="profile__name">Walter W. Kingsbery</h1>
+                  <div class="profile__actions">
+                    <a class="profile__btn profile__btn--filled" href="tel:+13034434694">303.443.4694</a>
+                    <a class="profile__btn profile__btn--outline" href="/contact">Contact the firm</a>
+                  </div>
+                </div>
+              </div>
+            </header>
+            <div class="profile__body">
+              <section class="profile__section">
+                <h2>Overview</h2>
+                <p>
+                  Walter has advised Colorado clients on estate planning, closely held business matters,
+                  and fiduciary administration for decades.
+                </p>
+              </section>
+              <section class="profile__section">
+                <h2>Practice areas</h2>
+                <ul>
+                  <li>Comprehensive estate planning</li>
+                  <li>Business succession</li>
+                  <li>Trust and estate administration</li>
+                  <li>Tax planning coordination</li>
+                </ul>
+              </section>
+            </div>
+            <nav class="profile__siblings" aria-label="Our attorneys">
+              <h2 class="profile__siblings-title">Our attorneys</h2>
+              <ul class="profile__siblings-list">
+                <li><a href="/love">Eric V. Love</a></li>
+                <li><a href="/lehman">Jonathan A. Lehmann</a></li>
+                <li><a href="/boyd">Abby C. Boyd</a></li>
+                <li><a href="/kingsber" aria-current="page">Walter W. Kingsbery</a></li>
+              </ul>
+            </nav>
+          </article>
         </section>
 
         <div class="cms-main-content" data-cms-content>
@@ -393,10 +597,10 @@
           <nav class="site-footer__col" aria-label="Attorneys">
             <p class="site-footer__label">Attorneys</p>
             <ul class="site-footer__list">
-              <li><a href="/eric-love">Eric V. Love</a></li>
-              <li><a href="/jonathan-lehmann">Jonathan A. Lehmann</a></li>
-              <li><a href="/abby-boyd">Abby C. Boyd</a></li>
-              <li><a href="/walter-kingsbery">Walter W. Kingsbery</a></li>
+              <li><a href="/love">Eric V. Love</a></li>
+              <li><a href="/lehman">Jonathan A. Lehmann</a></li>
+              <li><a href="/boyd">Abby C. Boyd</a></li>
+              <li><a href="/kingsber">Walter W. Kingsbery</a></li>
             </ul>
           </nav>
           <div class="site-footer__col site-footer__col--contact">
