@@ -173,6 +173,79 @@
           </div>
           <p class="screen-hero__hint" aria-hidden="true">Scroll</p>
         </section>
+
+        <section
+          id="practice"
+          class="practice-strip"
+          aria-labelledby="practice-strip-heading"
+        >
+          <div class="practice-strip__inner">
+            <h2 id="practice-strip-heading" class="practice-strip__title">
+              What we do
+            </h2>
+            <ul class="practice-strip__list">
+              <li><a class="practice-strip__link" href="/#practice">Estate planning</a></li>
+              <li><a class="practice-strip__link" href="/#practice">Probate &amp; trust administration</a></li>
+              <li><a class="practice-strip__link" href="/#practice">Business law</a></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="about" id="who-we-are" aria-labelledby="about-heading">
+          <div class="about__inner">
+            <div class="about__intro">
+              <p class="about__eyebrow">Since 1982 · Colorado</p>
+              <h2 id="about-heading" class="about__title">
+                Counsel rooted in clarity and care.
+              </h2>
+              <div class="about__copy">
+                <p>
+                  Kingsbery, Johnson &amp; Love, LLP is a boutique firm serving clients statewide:
+                  estate and business planning, trust and estate administration, and steady
+                  guidance for families and owners.
+                </p>
+                <p>
+                  We tailor advice to your situation and keep communication prompt and plain-spoken.
+                </p>
+              </div>
+            </div>
+            <div class="about__expect">
+              <h3 class="about__expect-heading">What to expect</h3>
+              <ul class="about__expect-list">
+                <li class="about__expect-item">
+                  <span class="about__expect-icon" aria-hidden="true"></span>
+                  <span>A clear plan and defined process</span>
+                </li>
+                <li class="about__expect-item">
+                  <span class="about__expect-icon" aria-hidden="true"></span>
+                  <span>Emails and calls returned promptly</span>
+                </li>
+                <li class="about__expect-item">
+                  <span class="about__expect-icon" aria-hidden="true"></span>
+                  <span>Professional, expert staff</span>
+                </li>
+                <li class="about__expect-item">
+                  <span class="about__expect-icon" aria-hidden="true"></span>
+                  <span>Collaboration with your advisors</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about__team" aria-labelledby="about-team-heading">
+            <h3 id="about-team-heading" class="about__team-heading">
+              Our attorneys
+            </h3>
+            <ul class="about__team-list">
+              <li><a class="about__team-link" href="/eric-love"><span class="about__team-name">Eric V. Love</span></a></li>
+              <li><a class="about__team-link" href="/jonathan-lehmann"><span class="about__team-name">Jonathan A. Lehmann</span></a></li>
+              <li><a class="about__team-link" href="/abby-boyd"><span class="about__team-name">Abby C. Boyd</span></a></li>
+              <li><a class="about__team-link" href="/walter-kingsbery"><span class="about__team-name">Walter W. Kingsbery</span></a></li>
+            </ul>
+            <p class="about__team-more">
+              <a href="/who-we-are">Meet the team</a>
+            </p>
+          </div>
+        </section>
         {.end}
 
         {squarespace.main-content}
