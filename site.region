@@ -64,6 +64,7 @@
       <main id="main" class="content-container" role="main" data-content-field="main-content">
         <section
           class="screen-hero"
+          data-home-section
           aria-label="Practice highlights"
           data-carousel
           aria-roledescription="carousel"
@@ -193,6 +194,7 @@
         <section
           id="practice"
           class="practice-strip"
+          data-home-section
           aria-labelledby="practice-strip-heading"
         >
           <div class="practice-strip__inner">
@@ -207,7 +209,7 @@
           </div>
         </section>
 
-        <section class="about" id="who-we-are" aria-labelledby="about-heading">
+        <section class="about" id="who-we-are" data-home-section aria-labelledby="about-heading">
           <div class="about__inner">
             <div class="about__intro">
               <p class="about__eyebrow">Since 1982 · Colorado</p>
@@ -278,12 +280,58 @@
               </li>
             </ul>
             <p class="about__team-more">
-              <a href="/who-we-are">Meet the team</a>
+              <a href="/who">Meet the team</a>
             </p>
           </div>
         </section>
 
-        {squarespace.main-content}
+        <section class="page-profile" data-who-section hidden>
+          <div class="page-sheet">
+            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
+              <a href="/">Home</a>
+              · Who we are
+            </nav>
+            <h1 class="page-sheet__title">Who we are</h1>
+            <p class="page-sheet__lead">
+              Our attorneys work as a team to guide Colorado clients through estate planning,
+              probate and trust administration, and business matters.
+            </p>
+            <ul class="team-grid">
+              <li>
+                <a class="team-card" href="/eric-love">
+                  <img class="team-card__photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love">
+                  <span class="team-card__name">Eric V. Love</span>
+                  <span class="team-card__role">Partner · Estate &amp; trust</span>
+                </a>
+              </li>
+              <li>
+                <a class="team-card" href="/jonathan-lehmann">
+                  <img class="team-card__photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann">
+                  <span class="team-card__name">Jonathan A. Lehmann</span>
+                  <span class="team-card__role">Partner · Planning &amp; business</span>
+                </a>
+              </li>
+              <li>
+                <a class="team-card" href="/abby-boyd">
+                  <img class="team-card__photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd">
+                  <span class="team-card__name">Abby C. Boyd</span>
+                  <span class="team-card__role">Partner · Planning &amp; probate</span>
+                </a>
+              </li>
+              <li>
+                <a class="team-card" href="/walter-kingsbery">
+                  <img class="team-card__photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery">
+                  <span class="team-card__name">Walter W. Kingsbery</span>
+                  <span class="team-card__role">Founding partner</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="cms-main-content" data-cms-content>
+          {squarespace.main-content}
+        </div>
       </main>
 
       <footer class="site-footer">
