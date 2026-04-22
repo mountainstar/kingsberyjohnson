@@ -297,6 +297,16 @@
               · What we do
             </nav>
             <h1 class="page-sheet__title">What We Do</h1>
+            <figure class="what-banner">
+              <img
+                src="assets/kingsbery-johnson/what-we-do-hero.jpg"
+                alt="Legal planning documents on a conference table in a law office"
+                width="1600"
+                height="900"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
             <p class="page-sheet__lead">
               Our firm was founded on the practice of assisting clients with estate planning and
               administration, from routine to complex. Along the way, we developed an expertise in
