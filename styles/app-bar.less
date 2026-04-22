@@ -30,8 +30,9 @@
 .app-bar__brand {
   position: relative;
   display: flex;
-  align-items: center;
-  gap: var(--space-3);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-1);
   min-width: 0;
   flex: 1;
   padding: var(--space-2) var(--space-2);
@@ -62,7 +63,7 @@
 }
 
 .app-bar__logo {
-  width: clamp(2.25rem, 10vw, 2.75rem);
+  width: clamp(3rem, 14vw, 4rem);
   height: auto;
   flex-shrink: 0;
   display: block;
@@ -77,10 +78,10 @@
   font-weight: 500;
   letter-spacing: 0.01em;
   line-height: 1.25;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: min(52vw, 14rem);
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  max-width: none;
 }
 
 .app-bar__icon-btn {
