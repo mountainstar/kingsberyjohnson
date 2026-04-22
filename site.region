@@ -6,6 +6,8 @@
     <meta name="color-scheme" content="light">
     <meta name="theme-color" content="#1a3d30">
     {squarespace-headers}
+    <link rel="icon" type="image/svg+xml" href="assets/kingsbery-johnson/KJL-logo.svg">
+    <link rel="alternate icon" type="image/png" href="assets/kingsbery-johnson/KJL-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&amp;family=Source+Sans+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
@@ -17,11 +19,10 @@
         <div class="app-bar__toolbar md-elevation-app-bar">
           {.section website}
             <a class="app-bar__brand" href="/">
-              {.if logoImageUrl}
-                <img class="app-bar__logo" src="{logoImageUrl}" width="160" height="74" alt="">
-              {.or}
+              <picture>
+                <source srcset="assets/kingsbery-johnson/KJL-logo.svg" type="image/svg+xml">
                 <img class="app-bar__logo" src="assets/kingsbery-johnson/KJL-logo.png" width="160" height="74" alt="">
-              {.end}
+              </picture>
               <span class="app-bar__title">{siteTitle}</span>
             </a>
           {.end}
