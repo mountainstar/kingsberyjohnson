@@ -18,9 +18,15 @@
           {.section website}
             <a class="app-bar__brand" href="/">
               {.if logoImageUrl}
-                <img class="app-bar__logo" src="{logoImageUrl}" width="160" height="74" alt="">
+                <picture>
+                  <source srcset="{logoImageUrl}" type="image/svg+xml">
+                  <img class="app-bar__logo" src="{logoImageUrl}" width="160" height="74" alt="">
+                </picture>
               {.or}
-                <img class="app-bar__logo" src="assets/kingsbery-johnson/KJL-logo.png" width="160" height="74" alt="">
+                <picture>
+                  <source srcset="assets/kingsbery-johnson/KJL-logo.svg" type="image/svg+xml">
+                  <img class="app-bar__logo" src="assets/kingsbery-johnson/KJL-logo.png" width="160" height="74" alt="">
+                </picture>
               {.end}
               <span class="app-bar__title">{siteTitle}</span>
             </a>
