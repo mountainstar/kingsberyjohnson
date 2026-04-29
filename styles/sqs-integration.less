@@ -703,7 +703,23 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr;
+  grid-template-areas:
+    "info"
+    "map"
+    "form";
   align-items: start;
+}
+
+.wa-contact-card {
+  grid-area: info;
+}
+
+.wa-contact-map {
+  grid-area: map;
+}
+
+.wa-contact-form {
+  grid-area: form;
 }
 
 .wa-contact-map iframe {
@@ -826,11 +842,10 @@
 
   .wa-contact-layout {
     grid-template-columns: minmax(280px, 0.9fr) minmax(360px, 1.1fr);
+    grid-template-areas:
+      "info map"
+      "form form";
     gap: 1.25rem;
-  }
-
-  .wa-contact-form {
-    grid-column: 1 / -1;
   }
 
   .wa-footer__grid {
