@@ -1,123 +1,204 @@
-/* Squarespace layout + main content */
-body:not(.homepage) #main {
-  padding-top: ~"calc(var(--app-bar-height) + env(safe-area-inset-top, 0px))";
+.wa-body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  background: var(--cream);
 }
 
-.content-container {
-  flex: 1;
-  width: 100%;
+.wa-container {
+  width: min(1040px, calc(100% - 2.5rem));
+  margin: 0 auto;
 }
 
-.content-container .sqs-layout {
-  max-width: 72rem;
-  margin-inline: auto;
-  padding-inline: var(--space-5);
-  padding-bottom: var(--space-16);
+.wa-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--cream-dark);
 }
 
-.content-container .sqs-layout h1,
-.content-container .sqs-layout h2,
-.content-container .sqs-layout h3 {
-  font-family: var(--font-display);
+.wa-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 76px;
+}
+
+.wa-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--forest);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.wa-brand__logo {
+  width: 72px;
+  height: auto;
+}
+
+.wa-menu-btn {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--cream-dark);
+  border-radius: 999px;
+  background: var(--white);
+}
+
+.wa-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  display: none;
+  background: var(--white);
+  border-bottom: 1px solid var(--cream-dark);
+  padding: 1rem 1.25rem;
+}
+
+.wa-header.is-open .wa-nav {
+  display: block;
+}
+
+.wa-nav__list,
+.wa-nav__sub {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wa-nav a {
+  text-decoration: none;
+  color: var(--forest);
+  display: block;
+  padding: 0.45rem 0;
+}
+
+.wa-nav__sub {
+  margin-left: 0.85rem;
+  border-left: 2px solid var(--cream-dark);
+  padding-left: 0.75rem;
+}
+
+.wa-hero {
+  background: linear-gradient(140deg, rgba(26, 61, 48, 0.9), rgba(45, 107, 82, 0.86));
+  color: var(--cream);
+  padding: 4rem 0 2.8rem;
+}
+
+.wa-hero__grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.wa-eyebrow {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.wa-hero h1 {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(2rem, 6vw, 3.2rem);
+  line-height: 1.08;
+  margin: 0.35rem 0 0.9rem;
+}
+
+.wa-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.wa-actions a {
+  text-decoration: none;
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+}
+
+.wa-actions a:first-child {
+  background: var(--white);
   color: var(--forest);
 }
 
-.content-container .sqs-layout a {
-  color: var(--forest-bright);
+.wa-actions a:last-child {
+  border: 1px solid var(--cream-dark);
+  color: var(--cream);
 }
 
-.content-container .sqs-layout a:hover,
-.content-container .sqs-layout a:focus-visible {
-  color: var(--forest);
+.wa-hero__card {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 1.1rem 1.15rem;
 }
 
-body.collection-type-blog.view-list .blog-list-item + .blog-list-item {
-  margin-top: var(--space-8);
-}
-
-body.collection-type-blog .title {
-  font-family: var(--font-display);
-}
-
-/* Route-specific section visibility toggles */
 [data-home-section],
 [data-who-section],
 [data-what-section],
 [data-contact-section],
 [data-practice-section],
 [data-profile-section] {
-  display: none;
-}
-
-body.is-home-route [data-home-section]:not([hidden]) {
   display: block;
 }
 
-body.is-who-route [data-who-section]:not([hidden]) {
-  display: block;
+[hidden] {
+  display: none !important;
 }
 
-body.is-what-route [data-what-section]:not([hidden]) {
-  display: block;
-}
+@media (min-width: 900px) {
+  .wa-menu-btn {
+    display: none;
+  }
 
-body.is-contact-route [data-contact-section]:not([hidden]) {
-  display: block;
-}
+  .wa-nav {
+    position: static;
+    display: block;
+    margin-left: auto;
+    border: 0;
+    padding: 0;
+  }
 
-body.is-practice-route [data-practice-section]:not([hidden]) {
-  display: block;
-}
+  .wa-nav__list {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+  }
 
-body.is-profile-route [data-profile-section]:not([hidden]) {
-  display: block;
-}
+  .wa-nav__item {
+    position: relative;
+  }
 
-body.is-home-route [data-cms-content],
-body.is-who-route [data-cms-content],
-body.is-what-route [data-cms-content],
-body.is-practice-route [data-cms-content],
-body.is-profile-route [data-cms-content] {
-  display: none;
-}
+  .wa-nav__item--has-sub > .wa-nav__sub {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    background: var(--white);
+    border: 1px solid var(--cream-dark);
+    border-radius: 12px;
+    padding: 0.55rem;
+    margin-left: 0;
+    display: none;
+  }
 
-body.is-contact-route [data-cms-content] {
-  display: block;
-}
+  .wa-nav__item--has-sub:hover > .wa-nav__sub,
+  .wa-nav__item--has-sub:focus-within > .wa-nav__sub {
+    display: block;
+  }
 
-body.is-contact-route [data-cms-content] .sqs-layout {
-  max-width: 52rem;
-  margin: 0 auto var(--space-16);
-  padding: 0 var(--space-5);
-}
-
-body.is-contact-route [data-cms-content] .sqs-layout > .sqs-row:first-child {
-  margin-top: 0;
-}
-
-body.is-contact-route [data-cms-content] .sqs-row {
-  margin-top: 0;
-}
-
-body.is-contact-route [data-cms-content] .sqs-block-form {
-  margin: 0;
-  padding: var(--space-8) var(--space-6);
-  border-radius: var(--radius-lg);
-  background: var(--white);
-  border: 1px solid rgba(26, 61, 48, 0.1);
-  box-shadow: var(--shadow-soft);
-}
-
-body.is-contact-route [data-cms-content] .react-form-contents {
-  padding: 16px 0;
-}
-
-body.is-contact-route [data-cms-content] .sqs-block-form::before {
-  content: "Would you like to hear from us? Please fill out this form:";
-  padding-top: 8px;
-  display: block;
-  margin: 0 0 var(--space-4);
-  font-family: var(--font-display);
-  font-size: clamp(1.375rem, 2.5vw, 1.75rem);
-  color: var(--forest);
+  .wa-hero__grid {
+    grid-template-columns: 1.3fr 0.7fr;
+    align-items: center;
+  }
 }
