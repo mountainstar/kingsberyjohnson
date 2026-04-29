@@ -73,705 +73,157 @@
             </aside>
           </div>
         </section>
+        <section class="wa-team" data-home-section id="team">
+          <div class="wa-container">
+            <div class="wa-team__head">
+              <h2>Team</h2>
+              <a href="/who">View detailed attorney profiles</a>
+            </div>
+            <ul class="wa-home-team">
+              <li><a href="/love"><img class="wa-home-team__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" width="96" height="96"><span>Eric V. Love</span></a></li>
+              <li><a href="/lehman"><img class="wa-home-team__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" width="96" height="96"><span>Jonathan A. Lehmann</span></a></li>
+              <li><a href="/boyd"><img class="wa-home-team__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="96" height="96"><span>Abby C. Boyd</span></a></li>
+              <li><a href="/kingsber"><img class="wa-home-team__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="96" height="96"><span>Walter W. Kingsbery</span></a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="wa-practice" data-home-section id="practice-areas">
+          <div class="wa-container">
+            <h2>Practice Areas</h2>
+            <div class="wa-grid">
+              <a href="/estateplanning">Estate planning</a>
+              <a href="/estateprobatetrust">Probate &amp; trust administration</a>
+              <a href="/businesslaw">Business law</a>
+            </div>
+          </div>
+        </section>
+        <section class="wa-offices" data-home-section id="offices">
+          <div class="wa-container wa-offices__grid">
+            <article>
+              <h2>Visit</h2>
+              <p>2672 North Park Dr, Ste 100</p>
+              <p>Lafayette, CO 80026</p>
+              <p><a href="tel:+13034434694">303.443.4694</a></p>
+            </article>
+            <article>
+              <h2>Connect</h2>
+              <p><a href="/contact">Contact our office</a></p>
+              <p><a href="/who">Meet the team</a></p>
+              <p><a href="/what">Practice areas</a></p>
+            </article>
+          </div>
+        </section>
+        <section class="wa-advantage" data-home-section id="advantage">
+          <div class="wa-container">
+            <h2>Why clients choose KJL</h2>
+            <div class="wa-advantage__grid">
+              <article><h3>Steady Guidance</h3><p>We provide practical planning and administration counsel with clear next steps at every stage.</p></article>
+              <article><h3>Prompt Communication</h3><p>Clients and advisors can expect responsive calls, emails, and coordinated support.</p></article>
+              <article><h3>Integrated Perspective</h3><p>Estate planning, probate and trust administration, and business counsel work together as one strategy.</p></article>
+            </div>
+          </div>
+        </section>
 
-        <section
-          id="practice"
-          class="practice-strip"
-          data-home-section
-          aria-labelledby="practice-strip-heading"
-        >
-          <div class="practice-strip__inner">
-            <h2 id="practice-strip-heading" class="practice-strip__title">
-              What we do
-            </h2>
-            <ul class="practice-strip__list">
-              <li><a class="practice-strip__link" href="/estateplanning">Estate planning</a></li>
-              <li><a class="practice-strip__link" href="/estateprobatetrust">Probate &amp; trust administration</a></li>
-              <li><a class="practice-strip__link" href="/businesslaw">Business law</a></li>
+        <section class="wa-page" data-who-section hidden>
+          <div class="wa-container">
+            <nav class="wa-crumbs" aria-label="Breadcrumb"><a href="/">Home</a> · Who we are</nav>
+            <h1 class="wa-page__title">Who we are</h1>
+            <p class="wa-page__lead">Kingsbery, Johnson &amp; Love, LLP is a boutique law firm located in Lafayette, Colorado. Our practice is focused on estate, wealth transfer, and tax planning services, as well as estate and trust administration.</p>
+            <section class="wa-profile__section">
+              <p>The firm was founded in 1982 and serves Boulder County, the Denver metro area, and surrounding communities throughout Colorado.</p>
+            </section>
+            <ul class="wa-people-grid">
+              <li><a class="wa-person-card" href="/love"><img class="wa-person-card__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love"><span class="wa-person-card__name">Eric V. Love</span><span class="wa-person-card__role">Partner · Estate &amp; trust</span></a></li>
+              <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Planning &amp; business</span></a></li>
+              <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Planning &amp; probate</span></a></li>
+              <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Founding partner</span></a></li>
             </ul>
           </div>
         </section>
 
-        <section class="about" id="who-we-are" data-home-section aria-labelledby="about-heading">
-          <div class="about__inner">
-            <div class="about__intro">
-              <p class="about__eyebrow">Since 1982 · Colorado</p>
-              <h2 id="about-heading" class="about__title">
-                Counsel rooted in clarity and care.
-              </h2>
-              <div class="about__copy">
-                <p>
-                  Kingsbery, Johnson &amp; Love, LLP is a boutique firm serving clients statewide:
-                  estate and business planning, trust and estate administration, and steady
-                  guidance for families and owners.
-                </p>
-                <p>
-                  We tailor advice to your situation and keep communication prompt and plain-spoken.
-                </p>
+        <section class="wa-page" data-what-section hidden>
+          <div class="wa-container">
+            <nav class="wa-crumbs" aria-label="Breadcrumb"><a href="/">Home</a> · What we do</nav>
+            <h1 class="wa-page__title">What we do</h1>
+            <p class="wa-page__lead">We advise individuals, families, trustees, personal representatives, and business owners across Colorado with practical, coordinated legal guidance.</p>
+            <section class="wa-profile__section">
+              <h2>Practice areas</h2>
+              <div class="wa-grid">
+                <a href="/estateplanning">Estate planning</a>
+                <a href="/estateprobatetrust">Probate &amp; trust administration</a>
+                <a href="/businesslaw">Business law</a>
               </div>
-            </div>
-            <div class="about__expect">
-              <h3 class="about__expect-heading">What to expect</h3>
-              <ul class="about__expect-list">
-                <li class="about__expect-item">
-                  <span class="about__expect-icon" aria-hidden="true"></span>
-                  <span>A clear plan and defined process</span>
-                </li>
-                <li class="about__expect-item">
-                  <span class="about__expect-icon" aria-hidden="true"></span>
-                  <span>Emails and calls returned promptly</span>
-                </li>
-                <li class="about__expect-item">
-                  <span class="about__expect-icon" aria-hidden="true"></span>
-                  <span>Professional, expert staff</span>
-                </li>
-                <li class="about__expect-item">
-                  <span class="about__expect-icon" aria-hidden="true"></span>
-                  <span>Collaboration with your advisors</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="about__team" aria-labelledby="about-team-heading">
-            <h3 id="about-team-heading" class="about__team-heading">
-              Our attorneys
-            </h3>
-            <ul class="about__team-list">
-              <li>
-                <a class="about__team-link" href="/love">
-                  <img class="about__team-photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" width="400" height="600" loading="lazy" decoding="async">
-                  <span class="about__team-name">Eric V. Love</span>
-                </a>
-              </li>
-              <li>
-                <a class="about__team-link" href="/lehman">
-                  <img class="about__team-photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" width="400" height="600" loading="lazy" decoding="async">
-                  <span class="about__team-name">Jonathan A. Lehmann</span>
-                </a>
-              </li>
-              <li>
-                <a class="about__team-link" href="/boyd">
-                  <img class="about__team-photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="400" height="600" loading="lazy" decoding="async">
-                  <span class="about__team-name">Abby C. Boyd</span>
-                </a>
-              </li>
-              <li>
-                <a class="about__team-link" href="/kingsber">
-                  <img class="about__team-photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="400" height="600" loading="lazy" decoding="async">
-                  <span class="about__team-name">Walter W. Kingsbery</span>
-                </a>
-              </li>
-            </ul>
-            <p class="about__team-more">
-              <a href="/who">Meet the team</a>
-            </p>
+            </section>
           </div>
         </section>
 
-        <section class="page-profile" data-what-section hidden>
-          <div class="page-sheet">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a>
-              · What we do
-            </nav>
-            <h1 class="page-sheet__title">What We Do</h1>
-            <figure class="what-banner">
-              <img
-                src="assets/kingsbery-johnson/what-we-do-hero.jpg"
-                alt="Legal planning documents on a conference table in a law office"
-                width="1600"
-                height="900"
-                loading="lazy"
-                decoding="async"
-              >
-            </figure>
-            <p class="page-sheet__lead">
-              Our firm was founded on the practice of assisting clients with estate planning and
-              administration, from routine to complex. Along the way, we developed an expertise in
-              advising small businesses on matters such as succession planning, buy-sell agreements,
-              and the planning necessary to start or expand a business.
-            </p>
-
-            <h2 id="estate-planning" class="page-sheet__title">Estate Planning</h2>
-            <p>
-              We provide estate, wealth transfer, and tax planning services to individuals, couples
-              and families. From the most basic to the most complex, we prepare individualized estate
-              plans designed to maximize our clients' flexibility and intentions while minimizing
-              estate, gift, and generation-skipping transfer taxes.
-            </p>
-            <p><a href="/estateplanning">Read more about estate planning</a>.</p>
-
-            <h2 id="estate-probate-trust-administration" class="page-sheet__title">
-              Estate, Probate and Trust Administration
-            </h2>
-            <p>
-              Our firm has extensive experience representing personal representatives, trustees, and
-              beneficiaries in handling estate and trust administration matters. We assist clients with
-              the estate and probate process, including gathering assets and ensuring that after taxes
-              and expenses are paid, those assets pass to the heirs or beneficiaries of an estate.
-            </p>
-            <p><a href="/estateprobatetrust">Read more about estate, probate and trust administration</a>.</p>
-
-            <h2 id="business-law" class="page-sheet__title">Business Law</h2>
-            <p>
-              We often provide business law advice to our estate planning clients, including the
-              formation and operation of family entities and succession planning for those entities.
-            </p>
-            <p><a href="/businesslaw">Read more about business law</a>.</p>
-          </div>
-        </section>
-
-        <section class="page-profile" data-practice-section="estateplanning" hidden>
-          <div class="page-sheet page-sheet--service">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a> · <a href="/what">What we do</a> · Estate Planning
-            </nav>
-            <figure class="service-banner">
-              <img
-                src="assets/kingsbery-johnson/estate-planning-orbit.jpg"
-                alt="Estate planning documents and legal planning materials"
-                width="1143"
-                height="500"
-                loading="lazy"
-                decoding="async"
-              >
-            </figure>
-            <div class="service-card">
-              <h1 class="page-sheet__title">Estate Planning</h1>
-              <p class="page-sheet__lead">
-                We provide estate, wealth transfer, and tax planning services to individuals, couples and
-                families. From the most basic to the most complex, we prepare individualized estate plans
-                designed to maximize our clients' flexibility and intentions while minimizing estate, gift,
-                and generation-skipping transfer taxes.
-              </p>
-              <p>
-                Our attorneys consult with clients to determine the nature and extent of their assets and
-                their objectives in managing, conserving and distributing their wealth. Our experience allows
-                us to combine proficiency with practicality and sensitivity to both technical and non-technical
-                issues. We often work with our clients' other professional advisors, including accountants,
-                brokers, financial planners, life insurance professionals, and trustees, to coordinate all
-                aspects of their planning.
-              </p>
-            </div>
-            <div class="service-card">
-              <h2 class="service-card__title">Planning documents include</h2>
-              <ul class="page-sheet__list">
-                <li>Wills</li>
-                <li>Revocable and irrevocable trusts</li>
-                <li>Durable powers of attorney for healthcare and property</li>
-                <li>Living wills</li>
-                <li>Pre-marital and post-marital agreements</li>
-                <li>Shareholders' agreements</li>
-                <li>Family limited partnership agreements</li>
-                <li>Limited liability company agreements</li>
-              </ul>
-            </div>
-            <div class="service-card service-card--split">
-              <div>
-                <p>
-                  We also prepare ancillary estate planning documents, such as real estate deeds and beneficiary
-                  designation forms for annuities, life insurance policies, and retirement plans. If needed, we
-                  prepare and file federal gift tax returns (IRS Form 709). We provide complex estate planning
-                  guidance, including:
-                </p>
-                <ul class="page-sheet__list">
-                  <li>The creation of irrevocable life insurance trusts (ILITs)</li>
-                  <li>Qualified domestic trusts (QDOTs)</li>
-                  <li>Sales to grantor trusts (IDITs)</li>
-                  <li>Grantor retained annuity trusts (GRATs)</li>
-                  <li>Qualified personal residence trusts (QPRTs)</li>
-                  <li>Lifetime qualified terminable interest trusts (QTIPs)</li>
-                  <li>Generation-skipping transfer tax (GST) planning strategies</li>
-                </ul>
-              </div>
-              <div>
-                <h2 class="service-card__title">Charitable planning guidance</h2>
-                <ul class="page-sheet__list">
-                  <li>Private foundations</li>
-                  <li>Donor advised funds</li>
-                  <li>Charitable remainder trusts (CRTs)</li>
-                  <li>Charitable lead trusts (CLTs)</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="page-profile" data-practice-section="estateprobatetrust" hidden>
-          <div class="page-sheet page-sheet--service">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a> · <a href="/what">What we do</a> · Estate, Probate and Trust Administration
-            </nav>
-            <figure class="service-banner">
-              <img
-                src="assets/kingsbery-johnson/estate-probate-trust-orbit.jpg"
-                alt="Estate and trust administration legal files and planning notes"
-                width="1143"
-                height="500"
-                loading="lazy"
-                decoding="async"
-              >
-            </figure>
-            <div class="service-card">
-              <h1 class="page-sheet__title">Estate, Probate and Trust Administration</h1>
-              <p class="page-sheet__lead">
-                Our firm has extensive experience representing personal representatives, trustees, and beneficiaries
-                in handling estate and trust administration matters. We assist clients with the estate and probate
-                process, including gathering assets and ensuring that after taxes and expenses are paid, those assets
-                pass to the heirs or beneficiaries of an estate.
-              </p>
-            </div>
-            <div class="service-card">
-              <p>
-                We prepare all documents required in connection with estate and trust administration, including petitions
-                and applications for probate, inventories, accountings, and asset transfer documents. We prepare and file
-                federal estate tax returns (IRS Form 706). Our attorneys advise personal representatives on tax elections,
-                marital and charitable deduction issues, disclaimers, and estate and generation-skipping transfer taxes.
-                We regularly counsel individual and corporate trustees on various aspects of trust administration, including
-                income and principal allocation and apportionment issues, legal requirements relating to trust investments,
-                discretionary distribution decisions, and the selection, resignation and removal of trustees.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section class="page-profile" data-practice-section="businesslaw" hidden>
-          <div class="page-sheet page-sheet--service">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a> · <a href="/what">What we do</a> · Business Law
-            </nav>
-            <figure class="service-banner">
-              <img
-                src="assets/kingsbery-johnson/business-orbit.jpg"
-                alt="Business law planning materials and strategic business paperwork"
-                width="1143"
-                height="500"
-                loading="lazy"
-                decoding="async"
-              >
-            </figure>
-            <div class="service-card">
-              <h1 class="page-sheet__title">Business Law</h1>
-              <p class="page-sheet__lead">
-                Our goal is to provide practical advice to business owners, entrepreneurs and executives. We focus on
-                the effects our advice will have on your business and how to prepare for the events of the future.
-              </p>
-            </div>
-            <div class="service-card service-card--split">
-              <p>
-                Whether its a small family run business with succession planning concerns, a retired executive providing
-                consulting services, an entrepreneur seeking capital or just a simple contract review, we can help provide
-                a solution.
-              </p>
-              <p>
-                Our services include formation and operation of partnerships, limited liability companies and other entities.
-                We also work with clients to plan for sales, mergers and transfers of the business. We also advise families
-                on the transfer of business interests through sales and gifting plans. Being in business can be complex and
-                stressful, a sound legal solution doesn't have to be.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <section class="page-profile" data-contact-section hidden>
-          <div class="page-sheet page-sheet--contact">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a>
-              · Contact
-            </nav>
-            <h1 class="page-sheet__title">Contact</h1>
-            <div class="contact-layout">
-              <div class="contact-block">
-                <address class="contact-block__address">
-                  Kingsbery, Johnson &amp; Love, LLP<br>
-                  2672 North Park Drive, Suite 100<br>
-                  Lafayette, CO 80026
-                </address>
-                <p class="contact-block__lines">
-                  Phone: <a href="tel:+13034434694">303.443.4694</a><br>
-                  Fax: 303.443.1335
-                </p>
-              </div>
-              <div class="contact-block contact-map">
-                <h2 class="service-card__title">Map</h2>
-                <iframe
-                  title="Map to Kingsbery, Johnson &amp; Love, LLP"
-                  src="https://www.google.com/maps?q=2672+North+Park+Drive+Suite+100+Lafayette+CO+80026&amp;output=embed"
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="page-profile" data-who-section hidden>
-          <div class="page-sheet">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a>
-              · Who we are
-            </nav>
-            <h1 class="page-sheet__title">Who we are</h1>
-            <p class="page-sheet__lead">
-              Kingsbery, Johnson &amp; Love, LLP, is a boutique law firm located in Lafayette,
-              Colorado. Our practice is focused on estate, wealth transfer, and tax planning
-              services, as well as estate and trust administration. The firm was founded in
-              1982 and serves Boulder County, the Denver metro area, and surrounding communities
-              throughout Colorado.
-            </p>
-            <p>
-              <img
-                src="assets/kingsbery-johnson/atty-group.jpg"
-                alt="Kingsbery, Johnson &amp; Love attorneys group photo"
-                width="600"
-                height="400"
-                loading="lazy"
-                decoding="async"
-              >
-            </p>
-            <h2 class="page-sheet__title">Our attorneys</h2>
-            <ul class="team-grid">
-              <li>
-                <a class="team-card" href="/love">
-                  <img class="team-card__photo" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" width="400" height="600" loading="lazy" decoding="async">
-                  <span class="team-card__name">Eric V. Love</span>
-                  <span class="team-card__role">Partner · Estate &amp; trust</span>
-                </a>
-              </li>
-              <li>
-                <a class="team-card" href="/lehman">
-                  <img class="team-card__photo" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" width="400" height="600" loading="lazy" decoding="async">
-                  <span class="team-card__name">Jonathan A. Lehmann</span>
-                  <span class="team-card__role">Partner · Planning &amp; business</span>
-                </a>
-              </li>
-              <li>
-                <a class="team-card" href="/boyd">
-                  <img class="team-card__photo" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="400" height="600" loading="lazy" decoding="async">
-                  <span class="team-card__name">Abby C. Boyd</span>
-                  <span class="team-card__role">Partner · Planning &amp; probate</span>
-                </a>
-              </li>
-              <li>
-                <a class="team-card" href="/kingsber">
-                  <img class="team-card__photo" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="400" height="600" loading="lazy" decoding="async">
-                  <span class="team-card__name">Walter W. Kingsbery</span>
-                  <span class="team-card__role">Founding partner</span>
-                </a>
-              </li>
-            </ul>
-            <h2 class="page-sheet__title">Our attorneys have represented clients in:</h2>
-            <ul class="page-sheet__list">
-              <li>
-                Estate and tax planning for high-net worth clients with complex assets including
-                real estate investments and private equity interests, international assets and
-                complex trusts;
-              </li>
-              <li>
-                Estate, probate and trust administration involving seven figure estate tax liability
-                and assessing tax consequences of complex trusts;
-              </li>
-              <li>
-                Adversarial probate and trust proceedings involving disputes among beneficiaries as
-                well as representing fiduciaries during administration of an estate;
-              </li>
-              <li>Expert testimony regarding trusts in a divorce context;</li>
-              <li>
-                Working with entrepreneurs on establishing businesses, choice of entity, partnership
-                agreements and buy-sell agreements;
-              </li>
-              <li>
-                Advising family owned and closely-held companies on succession and tax planning;
-              </li>
-              <li>Representing clients during marital agreement negotiations;</li>
-              <li>Advising executives on consulting contracts and liability concerns.</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="page-profile" data-profile-section="love" hidden>
-          <article class="profile">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a> · <a href="/who">Who we are</a> · Eric V. Love
-            </nav>
-            <header class="profile__hero">
-              <div class="profile__intro">
-                <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love Portrait" width="400" height="600" loading="lazy" decoding="async">
-                </div>
-                <div>
-                  <p class="profile__role">Partner · Estate &amp; trust</p>
-                  <h1 class="profile__name">Eric V. Love</h1>
-                </div>
-              </div>
-            </header>
-            <div class="profile__body">
-              <section class="profile__section">
-                <h2>Overview</h2>
-                <p>
-                  Eric V. Love is the managing partner of the firm. His practice focuses on
-                  estate planning, estate and trust administration and estate and gift tax matters.
-                </p>
-                <p>
-                  Eric received his undergraduate degree in business administration and accounting
-                  from the University of Kansas. He is also a CPA and worked for Deloitte &amp; Touche
-                  as an auditor. Eric received his law degree from the University of Kansas before joining
-                  the firm in 1994. He has served on the boards of directors of the Colorado Music Festival,
-                  Downtown Boulder, Inc., Imagine!, and the Board of Trustees of the Boulder Community
-                  Hospital Foundation. Eric is listed in the Best Lawyers of America 2017 Trusts and Estates.
-                  He is AV Pre-Eminent rated by Martindale Hubbell. Eric lives in Erie with his wife Jennifer
-                  and son Joshua.
-                </p>
-              </section>
-              <section class="profile__section">
-                <h2>Practice areas</h2>
-                <ul>
-                  <li>Estate planning and wills</li>
-                  <li>Revocable and irrevocable trusts</li>
-                  <li>Probate and trust administration</li>
-                  <li>Tax-sensitive wealth transfer strategies</li>
-                </ul>
-              </section>
-            </div>
-            <nav class="profile__siblings" aria-label="Our attorneys">
-              <h2 class="profile__siblings-title">Our attorneys</h2>
-              <ul class="profile__siblings-list">
-                <li><a href="/love" aria-current="page">Eric V. Love</a></li>
-                <li><a href="/lehman">Jonathan A. Lehmann</a></li>
-                <li><a href="/boyd">Abby C. Boyd</a></li>
-                <li><a href="/kingsber">Walter W. Kingsbery</a></li>
-              </ul>
-            </nav>
+        <section class="wa-page" data-practice-section="estateplanning" hidden>
+          <article class="wa-container wa-profile">
+            <nav class="wa-crumbs"><a href="/">Home</a> · What we do · Estate planning</nav>
+            <h1 class="wa-page__title">Estate planning</h1>
+            <section class="wa-profile__section"><p>We provide estate, wealth transfer, and tax planning services to individuals, couples and families.</p></section>
+            <section class="wa-profile__section"><h2>Services include</h2><ul><li>Wills and revocable trusts</li><li>Powers of attorney and healthcare directives</li><li>Asset transfer and beneficiary coordination</li><li>Updates for life and tax law changes</li></ul></section>
           </article>
         </section>
 
-        <section class="page-profile" data-profile-section="lehman" hidden>
-          <article class="profile">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann
-            </nav>
-            <header class="profile__hero">
-              <div class="profile__intro">
-                <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann Portrait" width="400" height="600" loading="lazy" decoding="async">
-                </div>
-                <div>
-                  <p class="profile__role">Partner · Planning &amp; business</p>
-                  <h1 class="profile__name">Jonathan A. Lehmann</h1>
-                </div>
-              </div>
-            </header>
-            <div class="profile__body">
-              <section class="profile__section">
-                <h2>Overview</h2>
-                <p>
-                  Jonathan A. Lehmann is a partner with the firm. His practice focuses on
-                  estate and tax planning; probate, estate and trust administration; advising
-                  family and closely-held businesses; and counseling executives and entrepreneurs.
-                </p>
-                <p>
-                  Jonathan is originally from Minnesota. He received his undergraduate degree
-                  from Wisconsin in 2000 (magna cum laude) and his law degree from Florida State
-                  University School of Law in 2005 (cum laude). While at Florida State, he served
-                  as a tax research assistant and was a member of the Journal of Transnational Law
-                  &amp; Policy and Journal of Land Use &amp; Environmental Law. Jonathan has presented
-                  at various seminars covering topics such as charitable planning and giving, succession
-                  planning, the pitfalls of serving as a trustee and considerations for buy-sell
-                  agreements. Jonathan is a member of the American, Colorado, Denver and Boulder County
-                  Bar associations. He is also admitted to the Federal Court of Claims. In his spare
-                  time, Jonathan is a member of Social Venture Partners of Boulder County and a founder
-                  of the Boulder Business Leaders Group. He lives in Lafayette with his wife Shawna and
-                  his two sons, Graham and Owen.
-                </p>
-              </section>
-              <section class="profile__section">
-                <h2>Practice areas</h2>
-                <ul>
-                  <li>Estate and gift planning</li>
-                  <li>Business formation and governance</li>
-                  <li>Contracts and transactions</li>
-                  <li>Trust administration</li>
-                </ul>
-              </section>
-            </div>
-            <nav class="profile__siblings" aria-label="Our attorneys">
-              <h2 class="profile__siblings-title">Our attorneys</h2>
-              <ul class="profile__siblings-list">
-                <li><a href="/love">Eric V. Love</a></li>
-                <li><a href="/lehman" aria-current="page">Jonathan A. Lehmann</a></li>
-                <li><a href="/boyd">Abby C. Boyd</a></li>
-                <li><a href="/kingsber">Walter W. Kingsbery</a></li>
-              </ul>
-            </nav>
+        <section class="wa-page" data-practice-section="estateprobatetrust" hidden>
+          <article class="wa-container wa-profile">
+            <nav class="wa-crumbs"><a href="/">Home</a> · What we do · Probate &amp; trust administration</nav>
+            <h1 class="wa-page__title">Probate &amp; trust administration</h1>
+            <section class="wa-profile__section"><p>Our firm has extensive experience representing personal representatives, trustees, and beneficiaries in handling estate and trust administration matters.</p></section>
+            <section class="wa-profile__section"><h2>Services include</h2><ul><li>Probate filings and court process support</li><li>Trust administration and fiduciary guidance</li><li>Asset inventory, notices, and distributions</li><li>Coordination with accountants and advisors</li></ul></section>
           </article>
         </section>
 
-        <section class="page-profile" data-profile-section="boyd" hidden>
-          <article class="profile">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a> · <a href="/who">Who we are</a> · Abby C. Boyd
-            </nav>
-            <header class="profile__hero">
-              <div class="profile__intro">
-                <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd Portrait" width="400" height="600" loading="lazy" decoding="async">
-                </div>
-                <div>
-                  <p class="profile__role">Partner · Planning &amp; probate</p>
-                  <h1 class="profile__name">Abby C. Boyd</h1>
-                </div>
-              </div>
-            </header>
-            <div class="profile__body">
-              <section class="profile__section">
-                <h2>Overview</h2>
-                <p>
-                  Abby C. Boyd is a partner with the firm. Her practice focuses on estate and tax
-                  planning and estate and trust administration. Originally from Maryland, she has
-                  lived in Colorado since 2014.
-                </p>
-                <p>
-                  She received her undergraduate degree from the University of Maryland, Baltimore
-                  County (UMBC) and a master's degree in teaching from Towson University. Prior to
-                  attending law school, she was a high school social studies teacher. She graduated
-                  from the University of Baltimore School of Law (summa cum laude) and was awarded
-                  entry into the Heuisler Honor Society. Before joining the firm, Abby was a law clerk
-                  for the Honorable Edward D. Bronfin in Denver District Court. She is a former chair
-                  of the City of Lafayette's Human Rights Commission and has previously served as Chair
-                  of the Tax, Estate Planning, and Probate Section of the Boulder County Bar Association.
-                  She is a member of the Colorado, Colorado Women's, and Boulder County bar associations.
-                  Abby lives in Lafayette, and enjoys reading, hiking, and cooking.
-                </p>
-              </section>
-              <section class="profile__section">
-                <h2>Practice areas</h2>
-                <ul>
-                  <li>Wills and powers of attorney</li>
-                  <li>Special needs and supplemental planning</li>
-                  <li>Probate administration</li>
-                  <li>Trust modification and distribution</li>
-                </ul>
-              </section>
-            </div>
-            <nav class="profile__siblings" aria-label="Our attorneys">
-              <h2 class="profile__siblings-title">Our attorneys</h2>
-              <ul class="profile__siblings-list">
-                <li><a href="/love">Eric V. Love</a></li>
-                <li><a href="/lehman">Jonathan A. Lehmann</a></li>
-                <li><a href="/boyd" aria-current="page">Abby C. Boyd</a></li>
-                <li><a href="/kingsber">Walter W. Kingsbery</a></li>
-              </ul>
-            </nav>
+        <section class="wa-page" data-practice-section="businesslaw" hidden>
+          <article class="wa-container wa-profile">
+            <nav class="wa-crumbs"><a href="/">Home</a> · What we do · Business law</nav>
+            <h1 class="wa-page__title">Business law</h1>
+            <section class="wa-profile__section"><p>We often provide business law advice to our estate planning clients, including the formation and operation of family entities and succession planning for those entities.</p></section>
+            <section class="wa-profile__section"><h2>Services include</h2><ul><li>Entity formation and organizational documents</li><li>Owner agreements and governance updates</li><li>Contract drafting and review</li><li>Succession planning and transition strategy</li></ul></section>
           </article>
         </section>
 
-        <section class="page-profile" data-profile-section="kingsber" hidden>
-          <article class="profile">
-            <nav class="profile__breadcrumb" aria-label="Breadcrumb">
-              <a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery
-            </nav>
-            <header class="profile__hero">
-              <div class="profile__intro">
-                <div class="profile__photo-frame">
-                  <img class="profile__photo-img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery Portrait" width="400" height="600" loading="lazy" decoding="async">
-                </div>
-                <div>
-                  <p class="profile__role">Of counsel · Estate planning</p>
-                  <h1 class="profile__name">Walter W. Kingsbery</h1>
-                </div>
-              </div>
-            </header>
-            <div class="profile__body">
-              <section class="profile__section">
-                <h2>Overview</h2>
-                <p>
-                  Walter W. Kingsbery is "mostly" retired, but remains of counsel to the firm.
-                  He received his undergraduate degree in accounting from Texas A&amp;M in 1975,
-                  and his law degree from Harvard University in 1979.
-                </p>
-                <p>
-                  His practice focuses on estate planning, estate and trust administration and tax-exempt
-                  organizations. Walter is currently on the board of directors of Live by Living Foundation,
-                  and has served on the boards of the International Mountain Explorers Connection, Imagine!
-                  and Global Response. He spends his free time on a wide spectrum of outdoor activities,
-                  reading, relaxing and socializing.
-                </p>
-              </section>
-              <section class="profile__section">
-                <h2>Practice areas</h2>
-                <ul>
-                  <li>Comprehensive estate planning</li>
-                  <li>Business succession</li>
-                  <li>Trust and estate administration</li>
-                  <li>Tax planning coordination</li>
-                </ul>
-              </section>
-            </div>
-            <nav class="profile__siblings" aria-label="Our attorneys">
-              <h2 class="profile__siblings-title">Our attorneys</h2>
-              <ul class="profile__siblings-list">
-                <li><a href="/love">Eric V. Love</a></li>
-                <li><a href="/lehman">Jonathan A. Lehmann</a></li>
-                <li><a href="/boyd">Abby C. Boyd</a></li>
-                <li><a href="/kingsber" aria-current="page">Walter W. Kingsbery</a></li>
-              </ul>
-            </nav>
-          </article>
+        <section class="wa-page" data-contact-section hidden>
+          <div class="wa-container">
+            <nav class="wa-crumbs"><a href="/">Home</a> · Contact</nav>
+            <h1 class="wa-page__title">Contact us</h1>
+            <p class="wa-page__lead">Kingsbery, Johnson &amp; Love, LLP<br>2672 North Park Drive, Suite 100<br>Lafayette, CO 80026<br>Phone: 303.443.4694<br>Fax: 303.443.1335</p>
+          </div>
         </section>
+
+
+
+        <section class="wa-page" data-profile-section="love" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Eric V. Love</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love"><div><p class="wa-profile__role">Partner · Estate &amp; trust</p><h1 class="wa-page__title">Eric V. Love</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Eric V. Love is the managing partner of the firm. His practice focuses on estate planning, estate and trust administration, and estate and gift tax matters.</p></section></article></section>
+
+        <section class="wa-page" data-profile-section="lehman" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann"><div><p class="wa-profile__role">Partner · Planning &amp; business</p><h1 class="wa-page__title">Jonathan A. Lehmann</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Jonathan A. Lehmann is a partner with the firm. His practice focuses on estate and tax planning; probate, estate and trust administration; advising family and closely-held businesses; and counseling executives and entrepreneurs.</p></section></article></section>
+
+        <section class="wa-page" data-profile-section="boyd" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Abby C. Boyd</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd"><div><p class="wa-profile__role">Partner · Planning &amp; probate</p><h1 class="wa-page__title">Abby C. Boyd</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Abby C. Boyd is a partner with the firm. Her practice focuses on estate and tax planning and estate and trust administration.</p></section></article></section>
+
+        <section class="wa-page" data-profile-section="kingsber" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><div><p class="wa-profile__role">Founding partner · Planning &amp; business</p><h1 class="wa-page__title">Walter W. Kingsbery</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Walter has advised Colorado clients on estate planning, closely held business matters, and fiduciary administration for decades.</p></section></article></section>
 
         <div class="cms-main-content" data-cms-content>
           {squarespace.main-content}
         </div>
       </main>
 
-      <footer class="site-footer">
-        <div class="site-footer__bg" aria-hidden="true"></div>
-        <div class="site-footer__inner">
-          <div class="site-footer__brand">
-            {.section website}
-              {.if logoImageUrl}
-                <img
-                  class="site-footer__logo"
-                  src="{logoImageUrl}"
-                  width="120"
-                  height="56"
-                  alt=""
-                />
-              {.end}
-              <p class="site-footer__tagline">Estate · Probate · Business</p>
-            {.end}
+      <footer class="wa-footer">
+        <div class="wa-container wa-footer__grid">
+          <div>
+            <p class="wa-footer__title">{.section website}{siteTitle}{.end}</p>
+            <p>Estate · Probate · Business</p>
           </div>
-          <nav class="site-footer__col" aria-label="Explore">
-            <p class="site-footer__label">Explore</p>
-            <ul class="site-footer__list">
-              <li><a href="/">Home</a></li>
-              <li><a href="/who-we-are">Who we are</a></li>
-              <li><a href="/what">What we do</a></li>
-              <li><a href="/contact">Contact</a></li>
-            </ul>
+          <nav aria-label="Footer">
+            <a href="/">Home</a>
+            <a href="/who">Who we are</a>
+            <a href="/what">What we do</a>
+            <a href="/contact">Contact</a>
           </nav>
-          <nav class="site-footer__col" aria-label="Attorneys">
-            <p class="site-footer__label">Attorneys</p>
-            <ul class="site-footer__list">
-              <li><a href="/love">Eric V. Love</a></li>
-              <li><a href="/lehman">Jonathan A. Lehmann</a></li>
-              <li><a href="/boyd">Abby C. Boyd</a></li>
-              <li><a href="/kingsber">Walter W. Kingsbery</a></li>
-            </ul>
-          </nav>
-          <div class="site-footer__col site-footer__col--contact">
-            <p class="site-footer__label">Visit</p>
-            <address class="site-footer__address">
-              2672 North Park Dr, Ste 100<br>
-              Lafayette, CO 80026<br>
-              <a href="tel:+13034434694">303.443.4694</a>
-            </address>
+          <div>
+            <img class="wa-footer__logo" src="assets/kingsbery-johnson/KJL-logo.png" width="120" height="56" alt="">
+            <p class="wa-legal">&copy; {.section website}{siteTitle}{.end}</p>
           </div>
         </div>
-        <p class="site-footer__meta">
-          &copy; {.section website}{siteTitle}{.end}
-        </p>
       </footer>
     </div>
 
