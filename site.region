@@ -128,10 +128,16 @@
           <div class="wa-container">
             <nav class="wa-crumbs" aria-label="Breadcrumb"><a href="/">Home</a> · Who we are</nav>
             <h1 class="wa-page__title">Who we are</h1>
-            <p class="wa-page__lead">Kingsbery, Johnson &amp; Love, LLP is a boutique law firm located in Lafayette, Colorado. Our practice is focused on estate, wealth transfer, and tax planning services, as well as estate and trust administration.</p>
-            <section class="wa-profile__section">
-              <p>The firm was founded in 1982 and serves Boulder County, the Denver metro area, and surrounding communities throughout Colorado.</p>
-            </section>
+            <p class="wa-page__lead wa-page__lead--who">Kingsbery, Johnson &amp; Love, LLP is a boutique law firm located in Lafayette, Colorado. Our practice is focused on estate, wealth transfer, and tax planning services, as well as estate and trust administration.</p>
+            <div class="wa-who-layout">
+              <section class="wa-profile__section wa-who-intro">
+                <p>The firm was founded in 1982 and serves Boulder County, the Denver metro area, and surrounding communities throughout Colorado.</p>
+                <p>We combine practical advice with clear communication and long-term planning support for families, fiduciaries, and business owners.</p>
+              </section>
+              <figure class="wa-who-photo">
+                <img src="assets/kingsbery-johnson/atty-group.jpg" alt="Kingsbery, Johnson &amp; Love attorneys group photo" width="600" height="400" loading="lazy" decoding="async">
+              </figure>
+            </div>
             <ul class="wa-people-grid">
               <li><a class="wa-person-card" href="/love"><img class="wa-person-card__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love"><span class="wa-person-card__name">Eric V. Love</span><span class="wa-person-card__role">Partner · Estate &amp; trust</span></a></li>
               <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Planning &amp; business</span></a></li>
@@ -188,7 +194,21 @@
           <div class="wa-container">
             <nav class="wa-crumbs"><a href="/">Home</a> · Contact</nav>
             <h1 class="wa-page__title">Contact us</h1>
-            <p class="wa-page__lead">Kingsbery, Johnson &amp; Love, LLP<br>2672 North Park Drive, Suite 100<br>Lafayette, CO 80026<br>Phone: 303.443.4694<br>Fax: 303.443.1335</p>
+            <div class="wa-contact-layout">
+              <section class="wa-profile__section wa-contact-card">
+                <p class="wa-page__lead">Kingsbery, Johnson &amp; Love, LLP<br>2672 North Park Drive, Suite 100<br>Lafayette, CO 80026<br>Phone: <a href="tel:+13034434694">303.443.4694</a><br>Fax: 303.443.1335</p>
+              </section>
+              <section class="wa-profile__section wa-contact-map">
+                <h2>Map</h2>
+                <iframe title="Map to Kingsbery, Johnson &amp; Love, LLP" src="https://www.google.com/maps?q=2672+North+Park+Drive+Suite+100+Lafayette+CO+80026&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+              </section>
+              <section class="wa-profile__section wa-contact-form">
+                <h2>Send us a message</h2>
+                <div class="wa-contact-form-slot" data-cms-content>
+                  {squarespace.main-content}
+                </div>
+              </section>
+            </div>
           </div>
         </section>
 
@@ -202,7 +222,7 @@
 
         <section class="wa-page" data-profile-section="kingsber" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><div><p class="wa-profile__role">Founding partner · Planning &amp; business</p><h1 class="wa-page__title">Walter W. Kingsbery</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Walter has advised Colorado clients on estate planning, closely held business matters, and fiduciary administration for decades.</p></section></article></section>
 
-        <div class="cms-main-content" data-cms-content>
+        <div class="cms-main-content" data-cms-content hidden>
           {squarespace.main-content}
         </div>
       </main>

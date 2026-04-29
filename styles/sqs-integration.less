@@ -562,6 +562,30 @@
   color: var(--ink-muted);
 }
 
+.wa-page__lead--who {
+  margin-bottom: 1.25rem;
+}
+
+.wa-who-layout {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.wa-who-photo {
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--cream-dark);
+  box-shadow: 0 8px 18px rgba(20, 26, 23, 0.08);
+}
+
+.wa-who-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .wa-people-grid {
   list-style: none;
   margin: 1.5rem 0 0;
@@ -576,7 +600,8 @@
   color: var(--forest);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
   border: 1px solid var(--cream-dark);
   background: var(--white);
   border-radius: 12px;
@@ -669,6 +694,27 @@
   pointer-events: none;
 }
 
+.wa-contact-layout {
+  display: grid;
+  gap: 1rem;
+}
+
+.wa-contact-map iframe {
+  width: 100%;
+  min-height: 260px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.wa-contact-form-slot .sqs-layout {
+  max-width: none;
+}
+
+.wa-contact-form-slot .sqs-block-form {
+  margin: 0;
+  padding: 0;
+}
+
 [hidden] {
   display: none !important;
 }
@@ -755,6 +801,19 @@
   .wa-offices__grid,
   .wa-footer__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .wa-who-layout {
+    grid-template-columns: 1.1fr 1fr;
+    align-items: stretch;
+  }
+
+  .wa-contact-layout {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .wa-contact-form {
+    grid-column: 1 / -1;
   }
 
   .wa-footer__grid {

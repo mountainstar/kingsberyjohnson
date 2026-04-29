@@ -51,10 +51,15 @@
       el.hidden = el.getAttribute("data-profile-section") !== activeProfile;
     });
 
-    var cmsSection = document.querySelector("[data-cms-content]");
-    if (cmsSection) {
-      cmsSection.hidden = isHome || isWho || isWhat || isContact || !!activePractice || !!activeProfile;
-    }
+    var cmsSections = document.querySelectorAll("[data-cms-content]");
+    cmsSections.forEach(function (cmsSection) {
+      var inContactSection = !!cmsSection.closest("[data-contact-section]");
+      if (inContactSection) {
+        cmsSection.hidden = !isContact;
+      } else {
+        cmsSection.hidden = isHome || isWho || isWhat || isContact || !!activePractice || !!activeProfile;
+      }
+    });
   }
 
   applyRouteSections();
