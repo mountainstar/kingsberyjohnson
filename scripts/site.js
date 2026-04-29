@@ -77,4 +77,31 @@
       });
     });
   }
+
+  var parallaxBg = document.querySelector("[data-parallax-bg]");
+  if (!parallaxBg && document.body.classList.contains("wa-body")) {
+    parallaxBg = document.createElement("div");
+    parallaxBg.className = "wa-parallax-bg";
+    parallaxBg.setAttribute("data-parallax-bg", "");
+    parallaxBg.setAttribute("aria-hidden", "true");
+    document.body.insertBefore(parallaxBg, document.body.firstChild);
+  }
+
+  if (parallaxBg && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    var ticking = false;
+    function updateParallax() {
+      var scrollY = window.scrollY || window.pageYOffset;
+      var y = (scrollY * 0.07).toFixed(2);
+      parallaxBg.style.transform = "translate3d(0, " + y + "px, 0)";
+      ticking = false;
+    }
+    function onScroll() {
+      if (!ticking) {
+        window.requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    updateParallax();
+  }
 })();
