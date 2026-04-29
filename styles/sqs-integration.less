@@ -595,6 +595,10 @@
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
+.wa-people-grid > li {
+  height: 100%;
+}
+
 .wa-person-card {
   text-decoration: none;
   color: var(--forest);
@@ -606,6 +610,7 @@
   background: var(--white);
   border-radius: 12px;
   padding: 1rem;
+  height: 100%;
 }
 
 .wa-person-card__img {
@@ -697,6 +702,8 @@
 .wa-contact-layout {
   display: grid;
   gap: 1rem;
+  grid-template-columns: 1fr;
+  align-items: start;
 }
 
 .wa-contact-map iframe {
@@ -708,11 +715,20 @@
 
 .wa-contact-form-slot .sqs-layout {
   max-width: none;
+  margin: 0;
+  padding: 0;
 }
 
 .wa-contact-form-slot .sqs-block-form {
   margin: 0;
-  padding: 0;
+  padding: 0.75rem;
+  border: 1px solid var(--cream-dark);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.wa-contact-form-slot .react-form-contents {
+  padding: 0.5rem 0.5rem 0;
 }
 
 [hidden] {
@@ -809,7 +825,8 @@
   }
 
   .wa-contact-layout {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(280px, 0.9fr) minmax(360px, 1.1fr);
+    gap: 1.25rem;
   }
 
   .wa-contact-form {
