@@ -3,7 +3,7 @@
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   color: var(--ink);
   background: var(--cream);
-  --wa-bg-image: url("../assets/kingsbery-johnson/background.jpg");
+  --wa-bg-image: url("../assets/kingsbery-johnson/IMG_2427.jpeg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -724,7 +724,8 @@
 
 .wa-contact-map iframe {
   width: 100%;
-  min-height: 260px;
+  min-height: 320px;
+  height: 100%;
   border: 0;
   border-radius: 10px;
 }
@@ -846,6 +847,12 @@
       "info map"
       "form form";
     gap: 1.25rem;
+    align-items: stretch;
+  }
+
+  .wa-contact-card,
+  .wa-contact-map {
+    height: 100%;
   }
 
   .wa-footer__grid {
