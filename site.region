@@ -33,6 +33,7 @@
                   <li><a href="/lehman">Jonathan A. Lehmann</a></li>
                   <li><a href="/boyd">Abby C. Boyd</a></li>
                   <li><a href="/kingsber">Walter W. Kingsbery</a></li>
+                  <li><a href="/labrie">Maia Labrie</a></li>
                 </ul>
               </li>
               <li class="wa-nav__item wa-nav__item--has-sub">
@@ -84,6 +85,7 @@
               <li><a href="/lehman"><img class="wa-home-team__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" width="96" height="96"><span>Jonathan A. Lehmann</span></a></li>
               <li><a href="/boyd"><img class="wa-home-team__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="96" height="96"><span>Abby C. Boyd</span></a></li>
               <li><a href="/kingsber"><img class="wa-home-team__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="96" height="96"><span>Walter W. Kingsbery</span></a></li>
+              <li><a href="/labrie"><img class="wa-home-team__img" src="assets/attorneys/3L%20Portrait.jpg" alt="Maia Labrie" width="96" height="96"><span>Maia Labrie</span></a></li>
             </ul>
           </div>
         </section>
@@ -143,6 +145,7 @@
               <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Planning &amp; business</span></a></li>
               <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Planning &amp; probate</span></a></li>
               <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Founding partner</span></a></li>
+              <li><a class="wa-person-card" href="/labrie"><img class="wa-person-card__img" src="assets/attorneys/3L%20Portrait.jpg" alt="Maia Labrie"><span class="wa-person-card__name">Maia Labrie</span><span class="wa-person-card__role">Attorney</span></a></li>
             </ul>
           </div>
         </section>
@@ -254,6 +257,46 @@
         </section>
 
         <section class="wa-page" data-profile-section="kingsber" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><div><p class="wa-profile__role">Founding partner · Planning &amp; business</p><h1 class="wa-page__title">Walter W. Kingsbery</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Walter has advised Colorado clients on estate planning, closely held business matters, and fiduciary administration for decades.</p></section></article></section>
+
+        <section class="wa-page" data-profile-section="labrie" hidden>
+          <article class="wa-container wa-profile">
+            <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Maia Labrie</nav>
+            <header class="wa-profile__hero">
+              <img class="wa-profile__img" src="assets/attorneys/3L%20Portrait.jpg" alt="Maia Labrie">
+              <div>
+                <p class="wa-profile__role">Attorney</p>
+                <h1 class="wa-page__title">Maia Labrie</h1>
+              </div>
+            </header>
+            <section class="wa-profile__section">
+              <h2>Overview</h2>
+              <p>Maia Labrie is an attorney practicing at the firm. Her practice focuses on estate planning, estate and gift tax planning, and estate and trust administration, including high net worth planning and administration requiring filing of estate tax returns (Form 706). In law school, Maia was a board member for the University of Colorado Law Review and completed internships at the Boulder County Court and the juvenile court for the 1st Judicial District of Colorado. She calls Colorado home, but she lived in multiple states and in Switzerland briefly while growing up. She now lives in Boulder with her dog and cat and spends her free time hiking, playing video games, reading, and crocheting.</p>
+            </section>
+            <section class="wa-profile__section">
+              <h2>Practice areas</h2>
+              <ul>
+                <li>Wills, powers of attorney, and estate planning matters</li>
+                <li>Trust and estate administration</li>
+                <li>Trust modification and termination</li>
+                <li>Estate and gift tax planning</li>
+                <li>Estate tax mitigation and planning</li>
+                <li>Irrevocable trusts and gifting strategies</li>
+              </ul>
+            </section>
+            <section class="wa-profile__section">
+              <h2>Education &amp; admissions</h2>
+              <ul>
+                <li>J.D., University of Colorado Law School (2020)</li>
+                <li>B.A., St. Catherine University, English and Music, summa cum laude (2017)</li>
+                <li>Admitted to practice law in Colorado</li>
+              </ul>
+            </section>
+            <section class="wa-profile__section">
+              <h2>Publications</h2>
+              <p><em>Two Legal Mothers: Cementing Parental Rights for Lesbian Parents in Colorado</em>, 91 U. Colo. L. Rev. 1247 (2020)</p>
+            </section>
+          </article>
+        </section>
 
         <div class="cms-main-content" data-cms-content hidden>
           {squarespace.main-content}
