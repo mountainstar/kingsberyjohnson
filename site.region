@@ -34,6 +34,7 @@
                   <li><a href="/boyd">Abby C. Boyd</a></li>
                   <li><a href="/kingsber">Walter W. Kingsbery</a></li>
                   <li><a href="/labrie">Maia Labrie</a></li>
+                  <li><a href="/rachael">Rachael</a></li>
                 </ul>
               </li>
               <li class="wa-nav__item wa-nav__item--has-sub">
@@ -86,6 +87,7 @@
               <li><a href="/boyd"><img class="wa-home-team__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="96" height="96"><span>Abby C. Boyd</span></a></li>
               <li><a href="/kingsber"><img class="wa-home-team__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="96" height="96"><span>Walter W. Kingsbery</span></a></li>
               <li><a href="/labrie"><img class="wa-home-team__img" src="assets/attorneys/3L%20Portrait.jpg" alt="Maia Labrie" width="96" height="96"><span>Maia Labrie</span></a></li>
+              <li><a href="/rachael"><img class="wa-home-team__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael" width="96" height="96"><span>Rachael</span></a></li>
             </ul>
           </div>
         </section>
@@ -146,6 +148,7 @@
               <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Planning &amp; probate</span></a></li>
               <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Founding partner</span></a></li>
               <li><a class="wa-person-card" href="/labrie"><img class="wa-person-card__img" src="assets/attorneys/3L%20Portrait.jpg" alt="Maia Labrie"><span class="wa-person-card__name">Maia Labrie</span><span class="wa-person-card__role">Attorney</span></a></li>
+              <li><a class="wa-person-card" href="/rachael"><img class="wa-person-card__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael"><span class="wa-person-card__name">Rachael</span><span class="wa-person-card__role">Associate attorney</span></a></li>
             </ul>
           </div>
         </section>
@@ -294,6 +297,43 @@
             <section class="wa-profile__section">
               <h2>Publications</h2>
               <p><em>Two Legal Mothers: Cementing Parental Rights for Lesbian Parents in Colorado</em>, 91 U. Colo. L. Rev. 1247 (2020)</p>
+            </section>
+          </article>
+        </section>
+
+        <section class="wa-page" data-profile-section="rachael" hidden>
+          <article class="wa-container wa-profile">
+            <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Rachael</nav>
+            <header class="wa-profile__hero">
+              <img class="wa-profile__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael">
+              <div>
+                <p class="wa-profile__role">Associate attorney</p>
+                <h1 class="wa-page__title">Rachael</h1>
+              </div>
+            </header>
+            <section class="wa-profile__section">
+              <h2>Overview</h2>
+              <p>Rachael is an associate attorney with the firm, focusing her practice on estate and trust administration. During law school, Rachael served on the editorial board of the University of Colorado Law Review and worked as a judicial intern for the Honorable Kristen L. Mix in the U.S. District Court for the District of Colorado. Outside of the office, Rachael is an avid reader and dedicated baseball fan, and above all else enjoys spending time in the Colorado sunshine with her husband and dogs.</p>
+            </section>
+            <section class="wa-profile__section">
+              <h2>Practice areas</h2>
+              <ul>
+                <li>Trust and estate administration</li>
+                <li>Trust modification and termination</li>
+                <li>Wills, powers of attorney, and estate planning matters</li>
+              </ul>
+            </section>
+            <section class="wa-profile__section">
+              <h2>Education &amp; admissions</h2>
+              <ul>
+                <li>J.D., University of Colorado Law School (2021)</li>
+                <li>B.A., Iowa State University, English Literature and World Languages and Cultures (Spanish), magna cum laude (2017)</li>
+                <li>Admitted to practice law in Colorado</li>
+              </ul>
+            </section>
+            <section class="wa-profile__section">
+              <h2>Publications</h2>
+              <p><em>A Pound of Flesh: How Medical Copayments in Prison Cost Inmates Their Health and Set Them Up for Reoffense</em>, 92 U. Colo. L. Rev. 225 (2021).</p>
             </section>
           </article>
         </section>
