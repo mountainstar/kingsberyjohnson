@@ -87,9 +87,15 @@
     var ref = document.querySelector(".wa-brand__logo");
     if (ref) {
       var src = ref.getAttribute("src") || ref.src || "";
-      if (src.indexOf("assets/") !== -1) {
+      if (
+        src.indexOf("kingsbery-johnson") !== -1 ||
+        src.indexOf("assets/") !== -1
+      ) {
         return src.replace(/[^/]+$/, "") + filename;
       }
+    }
+    if (window.location && window.location.origin) {
+      return window.location.origin + "/assets/kingsbery-johnson/" + filename;
     }
     return "/assets/kingsbery-johnson/" + filename;
   }
@@ -104,7 +110,9 @@
   }
 
   if (parallaxBg && document.body.classList.contains("wa-body")) {
-    var bgUrl = resolveTemplateAsset("IMG_2427.jpeg");
+    var bgFile =
+      parallaxBg.getAttribute("data-bg-asset") || "IMG_2427.jpeg";
+    var bgUrl = resolveTemplateAsset(bgFile);
     var bgValue = 'url("' + bgUrl + '")';
     parallaxBg.style.backgroundImage = bgValue;
     document.body.style.setProperty("--wa-bg-image", bgValue);

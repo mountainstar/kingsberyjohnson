@@ -31,23 +31,18 @@
   left: 0;
   right: 0;
   top: -12vh;
+  width: 100%;
   height: 124vh;
   pointer-events: none;
   overflow: hidden;
   z-index: 0;
+  background-color: var(--cream);
   background-image: var(--wa-bg-image, url("/assets/kingsbery-johnson/IMG_2427.jpeg"));
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   will-change: transform;
   transform: translate3d(0, 0, 0);
-}
-
-/* Fixed bg is in the flex column — keep it out of document flow sizing */
-.wa-body > .wa-parallax-bg {
-  flex: 0 0 0;
-  height: 0;
-  overflow: visible;
 }
 
 .wa-parallax-bg::before,
