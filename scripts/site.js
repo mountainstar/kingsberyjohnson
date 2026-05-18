@@ -83,50 +83,20 @@
     });
   }
 
-  function resolveTemplateAsset(filename) {
-    var ref = document.querySelector(".wa-brand__logo");
-    if (ref) {
-      var src = ref.getAttribute("src") || ref.src || "";
-      if (
-        src.indexOf("kingsbery-johnson") !== -1 ||
-        src.indexOf("assets/") !== -1
-      ) {
-        return src.replace(/[^/]+$/, "") + filename;
-      }
-    }
-    if (window.location && window.location.origin) {
-      return window.location.origin + "/assets/kingsbery-johnson/" + filename;
-    }
-    return "/assets/kingsbery-johnson/" + filename;
-  }
-
   var parallaxBg = document.querySelector("[data-parallax-bg]");
   if (!parallaxBg && document.body.classList.contains("wa-body")) {
     parallaxBg = document.createElement("div");
     parallaxBg.className = "wa-parallax-bg";
     parallaxBg.setAttribute("data-parallax-bg", "");
     parallaxBg.setAttribute("aria-hidden", "true");
+    var bgImg = document.createElement("img");
+    bgImg.className = "wa-parallax-bg__img";
+    bgImg.src = "assets/kingsbery-johnson/IMG_2427.jpeg";
+    bgImg.alt = "";
+    bgImg.setAttribute("fetchpriority", "high");
+    bgImg.decoding = "async";
+    parallaxBg.appendChild(bgImg);
     document.body.insertBefore(parallaxBg, document.body.firstChild);
-  }
-
-  if (document.body.classList.contains("wa-body")) {
-    var bgFile =
-      (parallaxBg && parallaxBg.getAttribute("data-bg-asset")) ||
-      "IMG_2427.jpeg";
-    var bgUrl = resolveTemplateAsset(bgFile);
-    var bgValue = 'url("' + bgUrl + '")';
-
-    if (parallaxBg) {
-      parallaxBg.style.backgroundImage = bgValue;
-    }
-    document.body.style.setProperty("--wa-bg-image", bgValue);
-
-    var bgPreload = new Image();
-    bgPreload.decoding = "async";
-    if ("fetchPriority" in bgPreload) {
-      bgPreload.fetchPriority = "high";
-    }
-    bgPreload.src = bgUrl;
   }
 
   if (parallaxBg && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
