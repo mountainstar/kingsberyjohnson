@@ -92,16 +92,6 @@
     document.body.insertBefore(parallaxBg, document.body.firstChild);
   }
 
-  if (parallaxBg && !parallaxBg.style.backgroundImage) {
-    var bgLoader = new Image();
-    bgLoader.decoding = "async";
-    bgLoader.onload = function () {
-      parallaxBg.style.backgroundImage =
-        'url("assets/kingsbery-johnson/IMG_2427.jpeg")';
-    };
-    bgLoader.src = "assets/kingsbery-johnson/IMG_2427.jpeg";
-  }
-
   if (parallaxBg && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     var ticking = false;
     function updateParallax() {
