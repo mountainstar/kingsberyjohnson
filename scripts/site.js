@@ -83,6 +83,17 @@
     });
   }
 
+  function resolveTemplateAsset(filename) {
+    var ref = document.querySelector(".wa-brand__logo");
+    if (ref) {
+      var src = ref.getAttribute("src") || ref.src || "";
+      if (src.indexOf("assets/") !== -1) {
+        return src.replace(/[^/]+$/, "") + filename;
+      }
+    }
+    return "/assets/kingsbery-johnson/" + filename;
+  }
+
   var parallaxBg = document.querySelector("[data-parallax-bg]");
   if (!parallaxBg && document.body.classList.contains("wa-body")) {
     parallaxBg = document.createElement("div");
@@ -90,6 +101,13 @@
     parallaxBg.setAttribute("data-parallax-bg", "");
     parallaxBg.setAttribute("aria-hidden", "true");
     document.body.insertBefore(parallaxBg, document.body.firstChild);
+  }
+
+  if (parallaxBg && document.body.classList.contains("wa-body")) {
+    var bgUrl = resolveTemplateAsset("IMG_2427.jpeg");
+    var bgValue = 'url("' + bgUrl + '")';
+    parallaxBg.style.backgroundImage = bgValue;
+    document.body.style.setProperty("--wa-bg-image", bgValue);
   }
 
   if (parallaxBg && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {

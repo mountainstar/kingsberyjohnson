@@ -2,13 +2,12 @@
   margin: 0;
   font-family: "Inter", system-ui, -apple-system, sans-serif;
   color: var(--ink);
-  background: var(--cream);
-  --wa-bg-image: url("../assets/kingsbery-johnson/IMG_2427.jpeg");
+  background: transparent;
+  --wa-bg-image: url("/assets/kingsbery-johnson/IMG_2427.jpeg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
-  isolation: isolate;
 }
 
 .wa-container {
@@ -32,8 +31,8 @@
   height: 124vh;
   pointer-events: none;
   overflow: hidden;
-  z-index: -1;
-  background-image: var(--wa-bg-image, none);
+  z-index: 0;
+  background-image: var(--wa-bg-image, url("/assets/kingsbery-johnson/IMG_2427.jpeg"));
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -55,7 +54,7 @@
 }
 
 .wa-parallax-bg::after {
-  background: linear-gradient(180deg, rgba(246, 243, 238, 0.78), rgba(246, 243, 238, 0.64));
+  background: linear-gradient(180deg, rgba(246, 243, 238, 0.62), rgba(246, 243, 238, 0.48));
 }
 
 #main > section,
@@ -63,9 +62,11 @@
   position: relative;
 }
 
+.wa-body > .app,
 .wa-header,
 .wa-body > main,
-.wa-footer {
+.wa-footer,
+.skip-link {
   position: relative;
   z-index: 1;
 }
