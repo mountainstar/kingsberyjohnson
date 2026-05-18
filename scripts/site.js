@@ -109,13 +109,24 @@
     document.body.insertBefore(parallaxBg, document.body.firstChild);
   }
 
-  if (parallaxBg && document.body.classList.contains("wa-body")) {
+  if (document.body.classList.contains("wa-body")) {
     var bgFile =
-      parallaxBg.getAttribute("data-bg-asset") || "IMG_2427.jpeg";
+      (parallaxBg && parallaxBg.getAttribute("data-bg-asset")) ||
+      "IMG_2427.jpeg";
     var bgUrl = resolveTemplateAsset(bgFile);
     var bgValue = 'url("' + bgUrl + '")';
-    parallaxBg.style.backgroundImage = bgValue;
+
+    if (parallaxBg) {
+      parallaxBg.style.backgroundImage = bgValue;
+    }
     document.body.style.setProperty("--wa-bg-image", bgValue);
+
+    var bgPreload = new Image();
+    bgPreload.decoding = "async";
+    if ("fetchPriority" in bgPreload) {
+      bgPreload.fetchPriority = "high";
+    }
+    bgPreload.src = bgUrl;
   }
 
   if (parallaxBg && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {

@@ -8,6 +8,7 @@
     <link rel="icon" type="image/svg+xml" href="assets/kingsbery-johnson/KJL-logo.svg">
     <link rel="alternate icon" type="image/png" href="assets/kingsbery-johnson/KJL-logo.png">
     <link rel="apple-touch-icon" href="assets/kingsbery-johnson/KJL-logo.png">
+    <link rel="preload" as="image" href="assets/kingsbery-johnson/IMG_2427.jpeg" fetchpriority="high">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
