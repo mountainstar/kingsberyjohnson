@@ -15,12 +15,15 @@
   margin: 0 auto;
 }
 
-.wa-body > main {
+.app > main,
+#main {
   flex: 1 0 auto;
+  min-width: 0;
 }
 
 #main {
   position: relative;
+  max-width: 100%;
 }
 
 .wa-parallax-bg {
@@ -38,6 +41,13 @@
   background-repeat: no-repeat;
   will-change: transform;
   transform: translate3d(0, 0, 0);
+}
+
+/* Fixed bg is in the flex column — keep it out of document flow sizing */
+.wa-body > .wa-parallax-bg {
+  flex: 0 0 0;
+  height: 0;
+  overflow: visible;
 }
 
 .wa-parallax-bg::before,
@@ -60,15 +70,16 @@
 #main > section,
 #main > .wa-page {
   position: relative;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
-.wa-body > .app,
-.wa-header,
-.wa-body > main,
-.wa-footer,
-.skip-link {
+.wa-body > .app {
   position: relative;
   z-index: 1;
+  flex: 1 0 auto;
+  width: 100%;
+  min-width: 0;
 }
 
 .wa-skip {
@@ -88,6 +99,9 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  width: 100%;
+  flex-shrink: 0;
+  align-self: stretch;
   background: var(--white);
   border-bottom: 1px solid var(--cream-dark);
 }
@@ -331,6 +345,7 @@
 .wa-practice {
   background: rgba(255, 255, 255, 0.78);
   position: relative;
+  overflow: clip;
 }
 
 .wa-practice .wa-container {
@@ -530,6 +545,7 @@
   padding: 3.25rem 0;
   position: relative;
   background: rgba(246, 243, 238, 0.74);
+  overflow-x: clip;
 }
 
 .wa-page::before {
