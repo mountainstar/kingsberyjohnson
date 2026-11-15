@@ -153,10 +153,10 @@
               </figure>
             </div>
             <ul class="wa-people-grid">
-              <li><a class="wa-person-card" href="/love"><img class="wa-person-card__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" loading="lazy" decoding="async"><span class="wa-person-card__name">Eric V. Love</span><span class="wa-person-card__role">Partner · Estate &amp; trust</span></a></li>
+              <li><a class="wa-person-card" href="/love"><img class="wa-person-card__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" loading="lazy" decoding="async"><span class="wa-person-card__name">Eric V. Love</span><span class="wa-person-card__role">Managing partner · Estate &amp; trust</span></a></li>
               <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann" loading="lazy" decoding="async"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
-              <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" loading="lazy" decoding="async"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Planning &amp; probate</span></a></li>
-              <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" loading="lazy" decoding="async"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Founding partner</span></a></li>
+              <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" loading="lazy" decoding="async"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
+              <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" loading="lazy" decoding="async"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Of counsel</span></a></li>
               <li><a class="wa-person-card" href="/labrie"><img class="wa-person-card__img" src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie" loading="lazy" decoding="async"><span class="wa-person-card__name">Maia Labrie</span><span class="wa-person-card__role">Attorney</span></a></li>
               <li><a class="wa-person-card" href="/wiggins"><img class="wa-person-card__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael Wiggins" loading="lazy" decoding="async"><span class="wa-person-card__name">Rachael Wiggins</span><span class="wa-person-card__role">Attorney</span></a></li>
             </ul>
@@ -220,13 +220,41 @@
 
 
 
-        <section class="wa-page" data-profile-section="love" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Eric V. Love</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love"><div><p class="wa-profile__role">Partner · Estate &amp; trust</p><h1 class="wa-page__title">Eric V. Love</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Eric&rsquo;s practice focuses on estate planning, estate and trust administration and estate and gift tax matters.</p>
-              <p>Eric received his undergraduate degree in business administration and accounting from the University of Kansas. He is also a CPA and worked for Deloitte &amp; Touche as an auditor. Eric received his law degree from the University of Kansas before joining the firm in 1994. He has served on the boards of directors of the Colorado Music Festival, Downtown Boulder, Inc., Imagine!, and the Board of Trustees of the Boulder Community Hospital Foundation. Eric is AV Pre-Eminent&trade; rated by Martindale Hubbell&reg;. Eric lives in Erie with his wife Jennifer.</p>
+        <section class="wa-page" data-profile-section="love" hidden>
+          <article class="wa-container wa-profile">
+            <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Eric V. Love</nav>
+            <header class="wa-profile__hero">
+              <img class="wa-profile__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love">
+              <div>
+                <p class="wa-profile__role">Managing partner · Estate &amp; trust</p>
+                <h1 class="wa-page__title">Eric V. Love</h1>
+              </div>
+            </header>
+            <section class="wa-profile__section">
+              <h2>Overview</h2>
+              <p>Eric V. Love is the managing partner of the firm. His practice focuses on estate planning, estate and trust administration and estate and gift tax matters.</p>
+              <p>Eric received his undergraduate degree in business administration and accounting from the University of Kansas. He is also a CPA and worked for Deloitte &amp; Touche as an auditor. Eric received his law degree from the University of Kansas before joining the firm in 1994. He has served on the boards of directors of the Colorado Music Festival, Downtown Boulder, Inc., Imagine!, and the Board of Trustees of the Boulder Community Hospital Foundation. Eric is listed in the Best Lawyers of America&reg; 2017 Trusts and Estates. He is AV Pre-Eminent&trade; rated by Martindale Hubbell&reg;. Eric lives in Erie with his wife Jennifer and son Joshua.</p>
             </section>
           </article>
         </section>
 
-        <section class="wa-page" data-profile-section="lehman" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann"><div><p class="wa-profile__role">Partner · Estate &amp; tax planning</p><h1 class="wa-page__title">Jonathan A. Lehmann</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Jonathan A. Lehmann is a partner with the firm. His practice focuses on estate and tax planning and probate, estate, and trust administration.</p></section></article></section>
+        <section class="wa-page" data-profile-section="lehman" hidden>
+          <article class="wa-container wa-profile">
+            <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann</nav>
+            <header class="wa-profile__hero">
+              <img class="wa-profile__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann">
+              <div>
+                <p class="wa-profile__role">Partner · Estate &amp; tax planning</p>
+                <h1 class="wa-page__title">Jonathan A. Lehmann</h1>
+              </div>
+            </header>
+            <section class="wa-profile__section">
+              <h2>Overview</h2>
+              <p>Jonathan A. Lehmann is a partner with the firm. His practice focuses on estate and tax planning; probate, estate and trust administration; advising family and closely-held businesses; and counseling executives and entrepreneurs.</p>
+              <p>Jonathan is originally from Minnesota. He received his undergraduate degree from Wisconsin in 2000 (magna cum laude) and his law degree from Florida State University School of Law in 2005 (cum laude). While at Florida State, he served as a tax research assistant and was a member of the Journal of Transnational Law &amp; Policy and Journal of Land Use &amp; Environmental Law. Jonathan has presented at various seminars covering topics such as charitable planning and giving, succession planning, the pitfalls of serving as a trustee and considerations for buy-sell agreements. Jonathan is a member of the American, Colorado, Denver and Boulder County Bar associations. He is also admitted to the Federal Court of Claims. In his spare time, Jonathan is a member of Social Venture Partners of Boulder County and a founder of the Boulder Business Leaders Group. He lives in Lafayette with his wife Shawna and his two sons, Graham and Owen.</p>
+            </section>
+          </article>
+        </section>
 
         <section class="wa-page" data-profile-section="boyd" hidden>
           <article class="wa-container wa-profile">
@@ -234,36 +262,33 @@
             <header class="wa-profile__hero">
               <img class="wa-profile__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd">
               <div>
-                <p class="wa-profile__role">Partner · Planning &amp; probate</p>
+                <p class="wa-profile__role">Partner · Estate &amp; tax planning</p>
                 <h1 class="wa-page__title">Abby C. Boyd</h1>
               </div>
             </header>
             <section class="wa-profile__section">
               <h2>Overview</h2>
-              <p>Abby C. Boyd is a partner with the firm. Her practice focuses on estate planning, estate and gift tax planning, and estate and trust administration. In a prior life, she was a high school social studies teacher in Baltimore, Maryland. Before joining the firm, she was a law clerk for the Honorable Edward D. Bronfin in Denver District Court. She lives in Lafayette with her daughter and enjoys reading, cooking, and time outdoors.</p>
-            </section>
-            <section class="wa-profile__section">
-              <h2>Practice areas</h2>
-              <ul>
-                <li>Wills, powers of attorney, and estate planning matters</li>
-                <li>Trust and estate administration</li>
-                <li>Trust modification and termination</li>
-                <li>Estate and gift tax planning</li>
-              </ul>
-            </section>
-            <section class="wa-profile__section">
-              <h2>Education &amp; admissions</h2>
-              <ul>
-                <li>J.D., University of Baltimore, summa cum laude</li>
-                <li>M.A.T., Towson University, secondary education</li>
-                <li>B.A., UMBC, history and political science</li>
-                <li>Admitted to practice law in Colorado.</li>
-              </ul>
+              <p>Abby C. Boyd is a partner with the firm. Her practice focuses on estate and tax planning and estate and trust administration. Originally from Maryland, she has lived in Colorado since 2014. She received her undergraduate degree from the University of Maryland, Baltimore County (UMBC) and a master&rsquo;s degree in teaching from Towson University. Prior to attending law school, she was a high school social studies teacher. She graduated from the University of Baltimore School of Law (summa cum laude) and was awarded entry into the Heuisler Honor Society. Before joining the firm, Abby was a law clerk for the Honorable Edward D. Bronfin in Denver District Court. She is a former chair of the City of Lafayette&rsquo;s Human Rights Commission and has previously served as Chair of the Tax, Estate Planning, and Probate Section of the Boulder County Bar Association. She is a member of the Colorado, Colorado Women&rsquo;s, and Boulder County bar associations. Abby lives in Lafayette, and enjoys reading, hiking, and cooking.</p>
             </section>
           </article>
         </section>
 
-        <section class="wa-page" data-profile-section="kingsber" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><div><p class="wa-profile__role">Founding partner · Estate planning</p><h1 class="wa-page__title">Walter W. Kingsbery</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Walter has advised Colorado clients on estate planning and fiduciary administration for decades.</p></section></article></section>
+        <section class="wa-page" data-profile-section="kingsber" hidden>
+          <article class="wa-container wa-profile">
+            <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery</nav>
+            <header class="wa-profile__hero">
+              <img class="wa-profile__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery">
+              <div>
+                <p class="wa-profile__role">Of counsel</p>
+                <h1 class="wa-page__title">Walter W. Kingsbery</h1>
+              </div>
+            </header>
+            <section class="wa-profile__section">
+              <h2>Overview</h2>
+              <p>Walter W. Kingsbery is &ldquo;mostly&rdquo; retired, but remains of counsel to the firm. He received his undergraduate degree in accounting from Texas A&amp;M in 1975, and his law degree from Harvard University in 1979. His practice focuses on estate planning, estate and trust administration and tax-exempt organizations. Walter is currently on the board of directors of Live by Living Foundation, and has served on the boards of the International Mountain Explorers Connection, Imagine! and Global Response. He spends his free time on a wide spectrum of outdoor activities, reading, relaxing and socializing.</p>
+            </section>
+          </article>
+        </section>
 
         <section class="wa-page" data-profile-section="labrie" hidden>
           <article class="wa-container wa-profile">
