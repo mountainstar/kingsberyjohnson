@@ -160,7 +160,7 @@
               <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" loading="lazy" decoding="async"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Planning &amp; probate</span></a></li>
               <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" loading="lazy" decoding="async"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Founding partner</span></a></li>
               <li><a class="wa-person-card" href="/labrie"><img class="wa-person-card__img" src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie" loading="lazy" decoding="async"><span class="wa-person-card__name">Maia Labrie</span><span class="wa-person-card__role">Attorney</span></a></li>
-              <li><a class="wa-person-card" href="/wiggins"><img class="wa-person-card__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael Wiggins" loading="lazy" decoding="async"><span class="wa-person-card__name">Rachael Wiggins</span><span class="wa-person-card__role">Associate attorney</span></a></li>
+              <li><a class="wa-person-card" href="/wiggins"><img class="wa-person-card__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael Wiggins" loading="lazy" decoding="async"><span class="wa-person-card__name">Rachael Wiggins</span><span class="wa-person-card__role">Attorney</span></a></li>
             </ul>
           </div>
         </section>
@@ -325,13 +325,13 @@
                 <img class="wa-profile__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael Wiggins">
               </div>
               <div>
-                <p class="wa-profile__role">Associate attorney</p>
+                <p class="wa-profile__role">Attorney</p>
                 <h1 class="wa-page__title">Rachael Wiggins</h1>
               </div>
             </header>
             <section class="wa-profile__section">
               <h2>Overview</h2>
-              <p>Rachael Wiggins is an associate attorney with the firm, focusing her practice on estate and trust administration. During law school, Rachael served on the editorial board of the University of Colorado Law Review and worked as a judicial intern for the Honorable Kristen L. Mix in the U.S. District Court for the District of Colorado. Outside of the office, Rachael is an avid reader and dedicated baseball fan, and above all else enjoys spending time in the Colorado sunshine with her husband and dogs.</p>
+              <p>Rachael Wiggins is an Attorney with the firm, focusing her practice on estate and trust administration. During law school, Rachael served on the editorial board of the University of Colorado Law Review and worked as a judicial intern for the Honorable Kristen L. Mix in the U.S. District Court for the District of Colorado. Outside of the office, Rachael is an avid reader and dedicated baseball fan, and above all else enjoys spending time in the Colorado sunshine with her husband and dogs.</p>
             </section>
             <section class="wa-profile__section">
               <h2>Practice areas</h2>
