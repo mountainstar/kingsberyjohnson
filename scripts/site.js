@@ -14,7 +14,7 @@
     var isWhat = path === "/what" || path === "/what-we-do";
     var isContact = path === "/contact" || path === "/contact-us";
     var profileSlugs = ["love", "lehman", "boyd", "kingsber", "labrie", "wiggins"];
-    var practiceSlugs = ["estateplanning", "estateprobatetrust", "businesslaw"];
+    var practiceSlugs = ["estateplanning", "estateprobatetrust"];
     var activeProfile = null;
     var activePractice = null;
     var i;

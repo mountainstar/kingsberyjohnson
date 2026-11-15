@@ -54,7 +54,6 @@
                 <ul class="wa-nav__sub" aria-label="Practice areas">
                   <li><a href="/estateplanning">Estate Planning</a></li>
                   <li><a href="/estateprobatetrust">Estate, Probate and Trust Administration</a></li>
-                  <li><a href="/businesslaw">Business Law</a></li>
                 </ul>
               </li>
               <li><a href="/contact">Contact</a></li>
@@ -69,7 +68,7 @@
             <div>
               <p class="wa-eyebrow">Boulder • Since 1982 • Colorado</p>
               <h1>Guidance you can use. Advice you can trust.</h1>
-              <p>Combining 45 years of Colorado trust and estate leadership with legal strategies for growing families, complex estates, closely held businesses, and family offices.</p>
+              <p>Combining 45 years of Colorado trust and estate leadership with legal strategies for growing families, complex estates, and family offices.</p>
               <p>Founded in 1982, our practice is devoted to expertly guiding our clients with estates, trusts and administration.</p>
               <div class="wa-actions">
                 <a href="/what">Explore Practice Areas</a>
@@ -109,7 +108,6 @@
             <div class="wa-grid">
               <a href="/estateplanning">Estate planning</a>
               <a href="/estateprobatetrust">Probate &amp; trust administration</a>
-              <a href="/businesslaw">Business law</a>
             </div>
           </div>
         </section>
@@ -135,7 +133,7 @@
             <div class="wa-advantage__grid">
               <article><h3>Steady Guidance</h3><p>We provide practical planning and administration counsel with clear next steps at every stage.</p></article>
               <article><h3>Prompt Communication</h3><p>Clients and advisors can expect responsive calls, emails, and coordinated support.</p></article>
-              <article><h3>Integrated Perspective</h3><p>Estate planning, probate and trust administration, and business counsel work together as one strategy.</p></article>
+              <article><h3>Integrated Perspective</h3><p>Estate planning and probate and trust administration work together as one coordinated strategy.</p></article>
             </div>
           </div>
         </section>
@@ -148,7 +146,7 @@
             <div class="wa-who-layout">
               <section class="wa-profile__section wa-who-intro">
                 <p>The firm was founded in 1982 and serves Boulder County, the Denver metro area, and surrounding communities throughout Colorado.</p>
-                <p>We combine practical advice with clear communication and long-term planning support for families, fiduciaries, and business owners.</p>
+                <p>We combine practical advice with clear communication and long-term planning support for families and fiduciaries.</p>
               </section>
               <figure class="wa-who-photo">
                 <img src="assets/kingsbery-johnson/atty-group.jpg" alt="Kingsbery, Johnson &amp; Love attorneys group photo" width="600" height="400" loading="lazy" decoding="async">
@@ -156,7 +154,7 @@
             </div>
             <ul class="wa-people-grid">
               <li><a class="wa-person-card" href="/love"><img class="wa-person-card__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" loading="lazy" decoding="async"><span class="wa-person-card__name">Eric V. Love</span><span class="wa-person-card__role">Partner · Estate &amp; trust</span></a></li>
-              <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" loading="lazy" decoding="async"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Planning &amp; business</span></a></li>
+              <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" loading="lazy" decoding="async"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
               <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" loading="lazy" decoding="async"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Planning &amp; probate</span></a></li>
               <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" loading="lazy" decoding="async"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Founding partner</span></a></li>
               <li><a class="wa-person-card" href="/labrie"><img class="wa-person-card__img" src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie" loading="lazy" decoding="async"><span class="wa-person-card__name">Maia Labrie</span><span class="wa-person-card__role">Attorney</span></a></li>
@@ -169,13 +167,12 @@
           <div class="wa-container">
             <nav class="wa-crumbs" aria-label="Breadcrumb"><a href="/">Home</a> · What we do</nav>
             <h1 class="wa-page__title">What we do</h1>
-            <p class="wa-page__lead">We advise individuals, families, trustees, personal representatives, and business owners across Colorado with practical, coordinated legal guidance.</p>
+            <p class="wa-page__lead">We advise individuals, families, trustees, and personal representatives across Colorado with practical, coordinated legal guidance.</p>
             <section class="wa-profile__section">
               <h2>Practice areas</h2>
               <div class="wa-grid">
                 <a href="/estateplanning">Estate planning</a>
                 <a href="/estateprobatetrust">Probate &amp; trust administration</a>
-                <a href="/businesslaw">Business law</a>
               </div>
             </section>
           </div>
@@ -196,15 +193,6 @@
             <h1 class="wa-page__title">Probate &amp; trust administration</h1>
             <section class="wa-profile__section"><p>Our firm has extensive experience representing personal representatives, trustees, and beneficiaries in handling estate and trust administration matters.</p></section>
             <section class="wa-profile__section"><h2>Services include</h2><ul><li>Probate filings and court process support</li><li>Trust administration and fiduciary guidance</li><li>Asset inventory, notices, and distributions</li><li>Coordination with accountants and advisors</li></ul></section>
-          </article>
-        </section>
-
-        <section class="wa-page" data-practice-section="businesslaw" hidden>
-          <article class="wa-container wa-profile">
-            <nav class="wa-crumbs"><a href="/">Home</a> · What we do · Business law</nav>
-            <h1 class="wa-page__title">Business law</h1>
-            <section class="wa-profile__section"><p>We often provide business law advice to our estate planning clients, including the formation and operation of family entities and succession planning for those entities.</p></section>
-            <section class="wa-profile__section"><h2>Services include</h2><ul><li>Entity formation and organizational documents</li><li>Owner agreements and governance updates</li><li>Contract drafting and review</li><li>Succession planning and transition strategy</li></ul></section>
           </article>
         </section>
 
@@ -238,7 +226,7 @@
           </article>
         </section>
 
-        <section class="wa-page" data-profile-section="lehman" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann"><div><p class="wa-profile__role">Partner · Planning &amp; business</p><h1 class="wa-page__title">Jonathan A. Lehmann</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Jonathan A. Lehmann is a partner with the firm. His practice focuses on estate and tax planning; probate, estate and trust administration; advising family and closely-held businesses; and counseling executives and entrepreneurs.</p></section></article></section>
+        <section class="wa-page" data-profile-section="lehman" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann"><div><p class="wa-profile__role">Partner · Estate &amp; tax planning</p><h1 class="wa-page__title">Jonathan A. Lehmann</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Jonathan A. Lehmann is a partner with the firm. His practice focuses on estate and tax planning and probate, estate, and trust administration.</p></section></article></section>
 
         <section class="wa-page" data-profile-section="boyd" hidden>
           <article class="wa-container wa-profile">
@@ -275,7 +263,7 @@
           </article>
         </section>
 
-        <section class="wa-page" data-profile-section="kingsber" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><div><p class="wa-profile__role">Founding partner · Planning &amp; business</p><h1 class="wa-page__title">Walter W. Kingsbery</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Walter has advised Colorado clients on estate planning, closely held business matters, and fiduciary administration for decades.</p></section></article></section>
+        <section class="wa-page" data-profile-section="kingsber" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery"><div><p class="wa-profile__role">Founding partner · Estate planning</p><h1 class="wa-page__title">Walter W. Kingsbery</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Walter has advised Colorado clients on estate planning and fiduciary administration for decades.</p></section></article></section>
 
         <section class="wa-page" data-profile-section="labrie" hidden>
           <article class="wa-container wa-profile">
@@ -365,7 +353,7 @@
         <div class="wa-container wa-footer__grid">
           <div>
             <p class="wa-footer__title">{.section website}{siteTitle}{.end}</p>
-            <p>Estate · Probate · Business</p>
+            <p>Estate · Probate &amp; Trust</p>
           </div>
           <nav aria-label="Footer">
             <a href="/">Home</a>
