@@ -94,7 +94,7 @@
             </div>
             <ul class="wa-home-team">
               <li><a href="/love"><img class="wa-home-team__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" width="96" height="96"><span>Eric V. Love</span></a></li>
-              <li><a href="/lehman"><img class="wa-home-team__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" width="96" height="96"><span>Jonathan A. Lehmann</span></a></li>
+              <li><a href="/lehman"><img class="wa-home-team__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann" width="96" height="96"><span>Jonathan A. Lehmann</span></a></li>
               <li><a href="/boyd"><img class="wa-home-team__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="96" height="96"><span>Abby C. Boyd</span></a></li>
               <li><a href="/kingsber"><img class="wa-home-team__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="96" height="96"><span>Walter W. Kingsbery</span></a></li>
               <li><a href="/labrie"><img class="wa-home-team__img" src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie" width="96" height="96" loading="lazy" decoding="async"><span>Maia Labrie</span></a></li>
@@ -154,7 +154,7 @@
             </div>
             <ul class="wa-people-grid">
               <li><a class="wa-person-card" href="/love"><img class="wa-person-card__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" loading="lazy" decoding="async"><span class="wa-person-card__name">Eric V. Love</span><span class="wa-person-card__role">Partner · Estate &amp; trust</span></a></li>
-              <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann" loading="lazy" decoding="async"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
+              <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann" loading="lazy" decoding="async"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
               <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" loading="lazy" decoding="async"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Planning &amp; probate</span></a></li>
               <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" loading="lazy" decoding="async"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Founding partner</span></a></li>
               <li><a class="wa-person-card" href="/labrie"><img class="wa-person-card__img" src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie" loading="lazy" decoding="async"><span class="wa-person-card__name">Maia Labrie</span><span class="wa-person-card__role">Attorney</span></a></li>
@@ -226,7 +226,7 @@
           </article>
         </section>
 
-        <section class="wa-page" data-profile-section="lehman" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/jonathan-lehmann.jpg" alt="Jonathan A. Lehmann"><div><p class="wa-profile__role">Partner · Estate &amp; tax planning</p><h1 class="wa-page__title">Jonathan A. Lehmann</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Jonathan A. Lehmann is a partner with the firm. His practice focuses on estate and tax planning and probate, estate, and trust administration.</p></section></article></section>
+        <section class="wa-page" data-profile-section="lehman" hidden><article class="wa-container wa-profile"><nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann</nav><header class="wa-profile__hero"><img class="wa-profile__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann"><div><p class="wa-profile__role">Partner · Estate &amp; tax planning</p><h1 class="wa-page__title">Jonathan A. Lehmann</h1></div></header><section class="wa-profile__section"><h2>Overview</h2><p>Jonathan A. Lehmann is a partner with the firm. His practice focuses on estate and tax planning and probate, estate, and trust administration.</p></section></article></section>
 
         <section class="wa-page" data-profile-section="boyd" hidden>
           <article class="wa-container wa-profile">
