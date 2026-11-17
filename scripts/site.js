@@ -7,6 +7,29 @@
     return pathname;
   }
 
+  function syncSectionMedia() {
+    var sections = document.querySelectorAll(
+      "[data-home-section], [data-who-section], [data-what-section], [data-contact-section], [data-practice-section], [data-profile-section]"
+    );
+    sections.forEach(function (section) {
+      var visible = !section.hidden;
+      section.querySelectorAll("img[src], img[data-src]").forEach(function (img) {
+        if (img.classList.contains("wa-parallax-bg__img")) return;
+        var src = img.getAttribute("src");
+        var stored = img.getAttribute("data-src");
+        if (visible) {
+          if (!src && stored) {
+            img.setAttribute("src", stored);
+            img.removeAttribute("data-src");
+          }
+        } else if (src) {
+          img.setAttribute("data-src", src);
+          img.removeAttribute("src");
+        }
+      });
+    });
+  }
+
   function applyRouteSections() {
     var path = normalizePath(window.location.pathname);
     var isHome = path === "/" || path === "/welcome";
@@ -60,6 +83,8 @@
         cmsSection.hidden = isHome || isWho || isWhat || isContact || !!activePractice || !!activeProfile;
       }
     });
+
+    syncSectionMedia();
   }
 
   applyRouteSections();
@@ -93,6 +118,8 @@
     bgImg.className = "wa-parallax-bg__img";
     bgImg.src = "assets/kingsbery-johnson/IMG_2427.jpeg";
     bgImg.alt = "";
+    bgImg.width = 1600;
+    bgImg.height = 1200;
     bgImg.setAttribute("fetchpriority", "high");
     bgImg.decoding = "async";
     parallaxBg.appendChild(bgImg);
@@ -101,6 +128,7 @@
 
   if (parallaxBg && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     var ticking = false;
+    var scrollEndTimer = null;
     function updateParallax() {
       var scrollY = window.scrollY || window.pageYOffset;
       var y = (scrollY * 0.07).toFixed(2);
@@ -108,6 +136,11 @@
       ticking = false;
     }
     function onScroll() {
+      parallaxBg.classList.add("is-scrolling");
+      if (scrollEndTimer) window.clearTimeout(scrollEndTimer);
+      scrollEndTimer = window.setTimeout(function () {
+        parallaxBg.classList.remove("is-scrolling");
+      }, 120);
       if (!ticking) {
         window.requestAnimationFrame(updateParallax);
         ticking = true;
@@ -116,4 +149,6 @@
     window.addEventListener("scroll", onScroll, { passive: true });
     updateParallax();
   }
+
+  window.addEventListener("popstate", applyRouteSections);
 })();

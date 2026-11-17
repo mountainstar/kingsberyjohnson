@@ -36,8 +36,12 @@
   overflow: hidden;
   z-index: 0;
   background-color: var(--cream);
-  will-change: transform;
+  /* Avoid permanent GPU layer (will-change) — costly with large bg bitmaps */
   transform: translate3d(0, 0, 0);
+}
+
+.wa-parallax-bg.is-scrolling {
+  will-change: transform;
 }
 
 .wa-parallax-bg__img {

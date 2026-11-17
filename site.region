@@ -93,12 +93,12 @@
               <a href="/who">View detailed attorney profiles</a>
             </div>
             <ul class="wa-home-team">
-              <li><a href="/love"><img class="wa-home-team__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" width="96" height="96"><span>Eric V. Love</span></a></li>
-              <li><a href="/lehman"><img class="wa-home-team__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann" width="96" height="96"><span>Jonathan A. Lehmann</span></a></li>
-              <li><a href="/boyd"><img class="wa-home-team__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="96" height="96"><span>Abby C. Boyd</span></a></li>
-              <li><a href="/kingsber"><img class="wa-home-team__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="96" height="96"><span>Walter W. Kingsbery</span></a></li>
-              <li><a href="/labrie"><img class="wa-home-team__img" src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie" width="96" height="96" loading="lazy" decoding="async"><span>Maia Labrie</span></a></li>
-              <li><a href="/wiggins"><img class="wa-home-team__img" src="assets/attorneys/Rachael_head_shot.jpg" alt="Rachael Wiggins" width="96" height="96" loading="lazy" decoding="async"><span>Rachael Wiggins</span></a></li>
+              <li><a href="/love"><img class="wa-home-team__img" src="assets/attorneys/thumbs/eric-love.jpg" alt="Eric V. Love" width="96" height="96" decoding="async"><span>Eric V. Love</span></a></li>
+              <li><a href="/lehman"><img class="wa-home-team__img" src="assets/attorneys/thumbs/jon_new.jpg" alt="Jonathan A. Lehmann" width="96" height="96" decoding="async"><span>Jonathan A. Lehmann</span></a></li>
+              <li><a href="/boyd"><img class="wa-home-team__img" src="assets/attorneys/thumbs/abby-boyd.jpg" alt="Abby C. Boyd" width="96" height="96" decoding="async"><span>Abby C. Boyd</span></a></li>
+              <li><a href="/kingsber"><img class="wa-home-team__img" src="assets/attorneys/thumbs/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="96" height="96" decoding="async"><span>Walter W. Kingsbery</span></a></li>
+              <li><a href="/labrie"><img class="wa-home-team__img" src="assets/attorneys/thumbs/maia-labrie.jpg" alt="Maia Labrie" width="96" height="96" loading="lazy" decoding="async"><span>Maia Labrie</span></a></li>
+              <li><a href="/wiggins"><img class="wa-home-team__img" src="assets/attorneys/thumbs/Rachael_head_shot.jpg" alt="Rachael Wiggins" width="96" height="96" loading="lazy" decoding="async"><span>Rachael Wiggins</span></a></li>
             </ul>
           </div>
         </section>
@@ -149,16 +149,16 @@
                 <p>We combine practical advice with clear communication and long-term planning support for families and fiduciaries.</p>
               </section>
               <figure class="wa-who-photo">
-                <img src="assets/kingsbery-johnson/atty-group.jpg" alt="Kingsbery, Johnson &amp; Love attorneys group photo" width="600" height="400" loading="lazy" decoding="async">
+                <img data-src="assets/kingsbery-johnson/atty-group.jpg" alt="Kingsbery, Johnson &amp; Love attorneys group photo" width="600" height="400" decoding="async">
               </figure>
             </div>
             <ul class="wa-people-grid">
-              <li><a class="wa-person-card" href="/love"><img class="wa-person-card__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" loading="lazy" decoding="async"><span class="wa-person-card__name">Eric V. Love</span><span class="wa-person-card__role">Managing partner · Estate &amp; trust</span></a></li>
-              <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann" loading="lazy" decoding="async"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
-              <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" loading="lazy" decoding="async"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
-              <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" loading="lazy" decoding="async"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Of counsel</span></a></li>
-              <li><a class="wa-person-card" href="/labrie"><img class="wa-person-card__img" src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie" loading="lazy" decoding="async"><span class="wa-person-card__name">Maia Labrie</span><span class="wa-person-card__role">Attorney</span></a></li>
-              <li><a class="wa-person-card" href="/wiggins"><img class="wa-person-card__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael Wiggins" loading="lazy" decoding="async"><span class="wa-person-card__name">Rachael Wiggins</span><span class="wa-person-card__role">Attorney</span></a></li>
+              <li><a class="wa-person-card" href="/love"><img class="wa-person-card__img" data-src="assets/attorneys/thumbs/eric-love.jpg" alt="Eric V. Love" width="160" height="160" decoding="async"><span class="wa-person-card__name">Eric V. Love</span><span class="wa-person-card__role">Managing partner · Estate &amp; trust</span></a></li>
+              <li><a class="wa-person-card" href="/lehman"><img class="wa-person-card__img" data-src="assets/attorneys/thumbs/jon_new.jpg" alt="Jonathan A. Lehmann" width="160" height="160" decoding="async"><span class="wa-person-card__name">Jonathan A. Lehmann</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
+              <li><a class="wa-person-card" href="/boyd"><img class="wa-person-card__img" data-src="assets/attorneys/thumbs/abby-boyd.jpg" alt="Abby C. Boyd" width="160" height="160" decoding="async"><span class="wa-person-card__name">Abby C. Boyd</span><span class="wa-person-card__role">Partner · Estate &amp; tax planning</span></a></li>
+              <li><a class="wa-person-card" href="/kingsber"><img class="wa-person-card__img" data-src="assets/attorneys/thumbs/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="160" height="160" decoding="async"><span class="wa-person-card__name">Walter W. Kingsbery</span><span class="wa-person-card__role">Of counsel</span></a></li>
+              <li><a class="wa-person-card" href="/labrie"><img class="wa-person-card__img" data-src="assets/attorneys/thumbs/maia-labrie.jpg" alt="Maia Labrie" width="160" height="160" decoding="async"><span class="wa-person-card__name">Maia Labrie</span><span class="wa-person-card__role">Attorney</span></a></li>
+              <li><a class="wa-person-card" href="/wiggins"><img class="wa-person-card__img" data-src="assets/attorneys/thumbs/Rachael_head_shot.jpg" alt="Rachael Wiggins" width="160" height="160" decoding="async"><span class="wa-person-card__name">Rachael Wiggins</span><span class="wa-person-card__role">Attorney</span></a></li>
             </ul>
           </div>
         </section>
@@ -224,7 +224,7 @@
           <article class="wa-container wa-profile">
             <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Eric V. Love</nav>
             <header class="wa-profile__hero">
-              <img class="wa-profile__img" src="assets/attorneys/eric-love.jpg" alt="Eric V. Love">
+              <img class="wa-profile__img" data-src="assets/attorneys/eric-love.jpg" alt="Eric V. Love" width="480" height="480" decoding="async">
               <div>
                 <p class="wa-profile__role">Managing partner · Estate &amp; trust</p>
                 <h1 class="wa-page__title">Eric V. Love</h1>
@@ -242,7 +242,7 @@
           <article class="wa-container wa-profile">
             <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Jonathan A. Lehmann</nav>
             <header class="wa-profile__hero">
-              <img class="wa-profile__img" src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann">
+              <img class="wa-profile__img" data-src="assets/attorneys/jon_new.jpg" alt="Jonathan A. Lehmann" width="720" height="514" decoding="async">
               <div>
                 <p class="wa-profile__role">Partner · Estate &amp; tax planning</p>
                 <h1 class="wa-page__title">Jonathan A. Lehmann</h1>
@@ -260,7 +260,7 @@
           <article class="wa-container wa-profile">
             <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Abby C. Boyd</nav>
             <header class="wa-profile__hero">
-              <img class="wa-profile__img" src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd">
+              <img class="wa-profile__img" data-src="assets/attorneys/abby-boyd.jpg" alt="Abby C. Boyd" width="480" height="480" decoding="async">
               <div>
                 <p class="wa-profile__role">Partner · Estate &amp; tax planning</p>
                 <h1 class="wa-page__title">Abby C. Boyd</h1>
@@ -277,7 +277,7 @@
           <article class="wa-container wa-profile">
             <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Walter W. Kingsbery</nav>
             <header class="wa-profile__hero">
-              <img class="wa-profile__img" src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery">
+              <img class="wa-profile__img" data-src="assets/attorneys/walter-kingsbery.jpg" alt="Walter W. Kingsbery" width="480" height="480" decoding="async">
               <div>
                 <p class="wa-profile__role">Of counsel</p>
                 <h1 class="wa-page__title">Walter W. Kingsbery</h1>
@@ -294,7 +294,7 @@
           <article class="wa-container wa-profile">
             <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Maia Labrie</nav>
             <header class="wa-profile__hero">
-              <img class="wa-profile__img" src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie">
+              <img class="wa-profile__img" data-src="assets/attorneys/maia-labrie.jpg" alt="Maia Labrie" width="480" height="480" decoding="async">
               <div>
                 <p class="wa-profile__role">Attorney</p>
                 <h1 class="wa-page__title">Maia Labrie</h1>
@@ -335,7 +335,7 @@
             <nav class="wa-crumbs"><a href="/">Home</a> · <a href="/who">Who we are</a> · Rachael Wiggins</nav>
             <header class="wa-profile__hero">
               <div class="wa-profile__img-wrap wa-profile__img-wrap--wiggins">
-                <img class="wa-profile__img" src="assets/attorneys/IMG_2296.jpg" alt="Rachael Wiggins">
+                <img class="wa-profile__img" data-src="assets/attorneys/IMG_2296.jpg" alt="Rachael Wiggins" width="480" height="615" decoding="async">
               </div>
               <div>
                 <p class="wa-profile__role">Attorney</p>
